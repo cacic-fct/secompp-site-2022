@@ -1,5 +1,5 @@
 <script>
-  import logoSquare from "$lib/img/favicon.png";
+  import logoSquare from "$lib/img/secomp22-logo-square.svg";
   import unespLogo from "$lib/img/unesp-square.svg";
 </script>
 

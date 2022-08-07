@@ -2,7 +2,7 @@
   import logoCacic from "$lib/img/cacic.svg";
   import logoEjcomp from "$lib/img/ejcomp.svg";
   import logoUnesp from "$lib/img/unesp.svg";
-  import logoDmc from "$lib/img/dmc.png";
+  import logoDmc from "$lib/img/dmc.webp";
 </script>
 
 <footer class="text-white bg-dark">
