@@ -120,7 +120,6 @@
   }
 
   .schedule-container {
-    padding-bottom: 0px;
     @media (min-width: 576px) {
       max-width: 767px;
     }
@@ -132,6 +131,7 @@
       max-width: 1199px;
       padding: 24px;
     }
+    padding-bottom: 0px !important;
   }
 
   .caption-container {
