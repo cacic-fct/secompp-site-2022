@@ -1,5 +1,5 @@
 <script>
-  import Schedule from "./index-components/schelude.svelte";
+  import Schedule from "./index-components/schedule.svelte";
   import Nav from "./index-components/nav.svelte";
   import Header from "./index-components/header.svelte";
   import About from "./index-components/about.svelte";
