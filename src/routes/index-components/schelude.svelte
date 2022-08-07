@@ -1,4 +1,9 @@
-<div class="container" id="schedule-container">
+<script>
+  import minicursosIcon from "$lib/img/minicursos.svg";
+  import palestrasIcon from "$lib/img/palestras.svg";
+</script>
+
+<div class="container schedule-container">
   <h1>Programação</h1>
   <div class="table-responsive" style="--bs-secondary-rgb: 255, 255, 255">
     <table class="table">
@@ -14,7 +19,7 @@
       </thead>
       <tbody id="schedule-table" style="color: #fefedf">
         <tr>
-          <td>15:00</td>
+          <td>15:00 <img src={minicursosIcon} alt="Minicursos" class="table-icon" /> </td>
           <td>Minicurso<br />Introdução à coisas estranhas</td>
           <td>Minicurso<br />Introdução à coisas estranhas</td>
           <td>Minicurso<br />Introdução à coisas estranhas</td>
@@ -22,7 +27,7 @@
           <td>Minicurso<br />Introdução à coisas estranhas</td>
         </tr>
         <tr>
-          <td>16:00</td>
+          <td>16:00 <img src={minicursosIcon} alt="Minicursos" class="table-icon" /></td>
           <td>Cell 4</td>
           <td>Cell 4</td>
           <td>Cell 4</td>
@@ -38,7 +43,7 @@
           <td />
         </tr>
         <tr>
-          <td>18:00</td>
+          <td>18:00 <img src={palestrasIcon} alt="Palestras" class="table-icon" /></td>
           <td>Cell 4</td>
           <td>Cell 4</td>
           <td>Cell 4</td>
@@ -50,12 +55,35 @@
   </div>
 </div>
 
-<p id="swipe-left" style="text-align: center; color: var(--bs-gray-700); margin-bottom: 0px">
-  Arraste para esquerda para visualizar mais eventos.<br />
-</p>
-<p style="text-align: center; color: var(--bs-gray-700)">
-  Clique ou toque no evento para visualizar mais informações.<br />
-</p>
+<div class="caption-container">
+  <div class="row" style="max-width: 574px;">
+    <div class="col-sm" style="max-width: 150px;">
+      <img
+        data-toggle="tooltip"
+        data-placement="top"
+        title="Tooltip on top"
+        src={minicursosIcon}
+        alt="Ícone minicurso"
+        class="caption-icon"
+      />
+      - Minicurso
+      <br /><img src={palestrasIcon} alt="Ícone palestra" class="caption-icon" /> - Palestra
+    </div>
+    <div class="col-sm">
+      <p style="color: var(--bs-gray-600)" id="caption-large-screen">
+        Clique no evento para visualizar mais informações.<br />
+      </p>
+      <div id="caption-small-screen">
+        <p style="color: var(--bs-gray-600); margin-bottom: 0px">
+          Arraste para esquerda para visualizar mais eventos.<br />
+        </p>
+        <p style="color: var(--bs-gray-600)">
+          Clique ou toque no evento para visualizar mais informações.<br />
+        </p>
+      </div>
+    </div>
+  </div>
+</div>
 
 <style lang="scss">
   th:first-child,
@@ -75,13 +103,24 @@
     min-width: 200px;
   }
 
-  @media (min-width: 1200px) {
-    #swipe-left {
+  #caption-small-screen {
+    @media (max-width: 574px) {
+      margin-top: 12px;
+    }
+
+    @media (min-width: 1200px) {
       display: none;
     }
   }
 
-  #schedule-container {
+  @media (max-width: 1199px) {
+    #caption-large-screen {
+      display: none;
+    }
+  }
+
+  .schedule-container {
+    padding-bottom: 0px;
     @media (min-width: 576px) {
       max-width: 767px;
     }
@@ -93,5 +132,33 @@
       max-width: 1199px;
       padding: 24px;
     }
+  }
+
+  .caption-container {
+    @media (min-width: 576px) {
+      max-width: 767px;
+    }
+    @media (min-width: 768px) {
+      max-width: 991px;
+      padding: 0px 24px;
+    }
+    @media (min-width: 992px) {
+      max-width: 1199px;
+      padding: 0px 24px;
+    }
+    padding: 12px;
+    color: var(--bs-gray-600);
+    margin: auto;
+  }
+
+  .table-icon {
+    filter: invert(100%) sepia(64%) saturate(532%) hue-rotate(353deg) brightness(109%) contrast(99%);
+    float: right;
+    width: 22px;
+  }
+
+  .caption-icon {
+    filter: invert(48%) sepia(10%) saturate(449%) hue-rotate(167deg) brightness(90%) contrast(82%);
+    width: 22px;
   }
 </style>
