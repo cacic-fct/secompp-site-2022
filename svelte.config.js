@@ -22,6 +22,9 @@ const config = {
 		  paths: {
 			base: dev ? '' : '/semanas/secompp',
 		},
+		files: {
+			hooks: 'src/hooks.ts',
+		}
 	}
 };
 

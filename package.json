@@ -22,7 +22,9 @@
 	},
 	"type": "module",
 	"dependencies": {
+		"@types/html-minifier": "^4.0.2",
 		"bootstrap": "^5.2.0",
+		"html-minifier": "^4.0.0",
 		"sass": "^1.54.3",
 		"sveltestrap": "github:laxadev/sveltestrap"
 	}
