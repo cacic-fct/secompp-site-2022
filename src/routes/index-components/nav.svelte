@@ -17,7 +17,7 @@
       <img src={logo} style="width: 150px" alt="Logo da SECOMPP 2022" />
     </div></NavbarBrand
   >
-  <NavbarToggler style="border-style: none;" on:click={() => (isOpen = !isOpen)} />
+  <NavbarToggler aria-label="Botão do menu" style="border-style: none;" on:click={() => (isOpen = !isOpen)} />
 
   <Collapse {isOpen} navbar expand="md" on:update={handleUpdate}>
     <Nav class="ms-auto" navbar>

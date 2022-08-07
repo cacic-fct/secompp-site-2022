@@ -28,15 +28,15 @@
           <tbody>
             <tr>
               <td>Estudantes da Unesp</td>
-              <td>R$ 35,00</td>
+              <td aria-label="35 reais">R$ 35,00</td>
             </tr>
             <tr>
               <td>Estudantes de outras instituições</td>
-              <td>R$ 35,00</td>
+              <td aria-label="35 reais">R$ 35,00</td>
             </tr>
             <tr>
               <td>Professores e profissionais</td>
-              <td>R$ 50,00</td>
+              <td aria-label="50 reais">R$ 50,00</td>
             </tr>
           </tbody>
         </table>
