@@ -2,3 +2,46 @@ $body-color: #fefedf;
 $background-color: #000;
 
 @import "../node_modules/bootstrap/scss/bootstrap";
+
+:root {
+  --bs-dark-rgb: 0, 0, 0;
+  --bs-body-bg: #000;
+  --bs-btn-hover-bg: 253, 189, 0;
+}
+
+.btn {
+  --bs-btn-color: #fdbd00;
+  --bs-btn-border-color: #fdbd00;
+  --bs-btn-hover-color: #fdbd00;
+  --bs-btn-hover-bg: #fdbd00;
+  --bs-btn-hover-border-color: #fdbd00;
+  --bs-btn-focus-shadow-rgb: 108, 117, 125;
+  --bs-btn-active-color: #fff;
+  --bs-btn-active-bg: #6c757d;
+  --bs-btn-active-border-color: #6c757d;
+  --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+  --bs-btn-disabled-color: #6c757d;
+  --bs-btn-disabled-bg: transparent;
+  --bs-btn-disabled-border-color: #6c757d;
+  --bs-gradient: none;
+  transition: 0.3s;
+}
+
+.btn:hover {
+  opacity: 0.5;
+  background-color: rgba(0, 0, 0, 0);
+  transition: 0.3s;
+}
+
+.navbar-dark {
+  --bs-navbar-hover-color: rgba(255, 255, 255, 0.55);
+  --bs-navbar-color: rgba(255, 255, 255, 0.75);
+}
+
+.navbar-brand {
+  transition: 0.3s;
+}
+.navbar-brand:hover {
+  opacity: 0.5;
+  transition: 0.3s;
+}
