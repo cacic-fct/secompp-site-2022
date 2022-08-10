@@ -5,7 +5,7 @@
   import logoDmc from "$lib/img/dmc.webp";
 </script>
 
-<footer class="text-white bg-dark">
+<footer class="text-white bg-dark" id="footer">
   <div class="container">
     <div class="row footer-row">
       <div class="col-md-4">
@@ -50,6 +50,7 @@
 
   footer {
     margin-bottom: 24px;
+    margin-top: 32px;
   }
 
   strong {

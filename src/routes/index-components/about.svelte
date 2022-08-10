@@ -3,7 +3,7 @@
   import unespLogo from "$lib/img/unesp-square.svg";
 </script>
 
-<div class="container py-4 py-xl-5">
+<div class="container">
   <hr class="my-5" />
   <div class="row">
     <div class="col-md-8 col-xl-6 mx-auto p-4">
