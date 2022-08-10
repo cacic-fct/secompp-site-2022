@@ -53,33 +53,31 @@
       </tbody>
     </table>
   </div>
-</div>
-
-<div class="caption-container">
-  <div class="row" style="max-width: 574px;">
-    <div class="col-sm" style="max-width: 150px;">
-      <img
-        data-toggle="tooltip"
-        data-placement="top"
-        title="Tooltip on top"
-        src={minicursosIcon}
-        alt="Ícone minicurso"
-        class="caption-icon"
-      />
-      - Minicurso
-      <br /><img src={palestrasIcon} alt="Ícone palestra" class="caption-icon" /> - Palestra
-    </div>
-    <div class="col-sm">
-      <p style="color: var(--bs-gray-600)" id="caption-large-screen">
-        Clique no evento para visualizar mais informações.<br />
-      </p>
-      <div id="caption-small-screen">
-        <p style="color: var(--bs-gray-600); margin-bottom: 0px">
-          Arraste para esquerda para visualizar mais eventos.<br />
+  <div class="caption-container">
+    <div class="row" style="max-width: 574px;">
+      <div class="col-sm" style="max-width: 150px;">
+        <img
+          data-toggle="tooltip"
+          data-placement="top"
+          title="Tooltip on top"
+          src={minicursosIcon}
+          alt="Ícone minicurso"
+          class="caption-icon"
+        />&ensp;Minicurso
+        <br /><img src={palestrasIcon} alt="Ícone palestra" class="caption-icon" />&ensp;Palestra
+      </div>
+      <div class="col-sm">
+        <p style="color: var(--bs-gray-600)" id="caption-large-screen">
+          Clique no evento para visualizar mais informações.<br />
         </p>
-        <p style="color: var(--bs-gray-600)">
-          Clique ou toque no evento para visualizar mais informações.<br />
-        </p>
+        <div id="caption-small-screen">
+          <p style="color: var(--bs-gray-600); margin-bottom: 0px">
+            Arraste para esquerda para visualizar mais eventos.<br />
+          </p>
+          <p style="color: var(--bs-gray-600)">
+            Clique ou toque no evento para visualizar mais informações.<br />
+          </p>
+        </div>
       </div>
     </div>
   </div>
@@ -131,7 +129,7 @@
       max-width: 1199px;
       padding: 24px;
     }
-    padding-bottom: 0px !important;
+    padding-bottom: 0px;
   }
 
   .caption-container {
