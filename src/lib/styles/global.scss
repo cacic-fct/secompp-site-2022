@@ -45,3 +45,9 @@ $background-color: #000;
   opacity: 0.5;
   transition: 0.3s;
 }
+
+section:before {
+  height: 58px;
+  content: "";
+  display: block;
+}
