@@ -19,7 +19,7 @@
       </thead>
       <tbody id="schedule-table" style="color: #fefedf">
         <tr>
-          <td>15:00 <img src={minicursosIcon} alt="Minicursos" class="table-icon" /> </td>
+          <td>15:00 <img src={minicursosIcon} alt="Minicursos" loading="lazy" class="table-icon" /> </td>
           <td>Minicurso<br />Introdução à coisas estranhas</td>
           <td>Minicurso<br />Introdução à coisas estranhas</td>
           <td>Minicurso<br />Introdução à coisas estranhas</td>
@@ -27,7 +27,7 @@
           <td>Minicurso<br />Introdução à coisas estranhas</td>
         </tr>
         <tr>
-          <td>16:00 <img src={minicursosIcon} alt="Minicursos" class="table-icon" /></td>
+          <td>16:00 <img src={minicursosIcon} alt="Minicursos" loading="lazy" class="table-icon" /></td>
           <td>Cell 4</td>
           <td>Cell 4</td>
           <td>Cell 4</td>
@@ -43,7 +43,7 @@
           <td />
         </tr>
         <tr>
-          <td>18:00 <img src={palestrasIcon} alt="Palestras" class="table-icon" /></td>
+          <td>18:00 <img src={palestrasIcon} alt="Palestras" loading="lazy" class="table-icon" /></td>
           <td>Cell 4</td>
           <td>Cell 4</td>
           <td>Cell 4</td>
@@ -56,15 +56,8 @@
   <div class="caption-container">
     <div class="row" style="max-width: 574px;">
       <div class="col-sm" style="max-width: 150px;">
-        <img
-          data-toggle="tooltip"
-          data-placement="top"
-          title="Tooltip on top"
-          src={minicursosIcon}
-          alt="Ícone minicurso"
-          class="caption-icon"
-        />&ensp;Minicurso
-        <br /><img src={palestrasIcon} alt="Ícone palestra" class="caption-icon" />&ensp;Palestra
+        <img src={minicursosIcon} loading="lazy" alt="Ícone minicurso" class="caption-icon" />&ensp;Minicurso
+        <br /><img src={palestrasIcon} alt="Ícone palestra" loading="lazy" class="caption-icon" />&ensp;Palestra
       </div>
       <div class="col-sm">
         <p style="color: var(--bs-gray-600)" id="caption-large-screen">

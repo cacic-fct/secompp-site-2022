@@ -18,12 +18,25 @@
           class="d-inline-block"
           src={logoCacic}
           style="width: 100px;margin-right: 15px; margin-bottom: 5px;"
+          loading="lazy"
           alt="Centro Acadêmico de Ciência da Computação"
-        /><img class="d-inline-block" src={logoEjcomp} style="width: 100px;" alt="Empresa Júnior da Computação" /><br
-        /><img class="d-inline-block" src={logoUnesp} style="width: 100px;margin-right: 15px;" alt="Unesp" /><img
+        /><img
+          class="d-inline-block"
+          src={logoEjcomp}
+          style="width: 100px;"
+          loading="lazy"
+          alt="Empresa Júnior da Computação"
+        /><br /><img
+          class="d-inline-block"
+          src={logoUnesp}
+          style="width: 100px;margin-right: 15px;"
+          loading="lazy"
+          alt="Unesp"
+        /><img
           class="d-inline-block"
           src={logoDmc}
           style="width: 70px;"
+          loading="lazy"
           alt="Departamento de Matemática e Computação"
         />
         <p style="text-align: left;font-size: 14px; font-weight: 200;">
