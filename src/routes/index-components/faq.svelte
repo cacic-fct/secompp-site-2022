@@ -44,7 +44,7 @@
       >Sim, todas as palestras são abertas ao público. No entanto, os certificados só serão gerados aos participantes
       pagantes.</AccordionItem
     >
-    <AccordionItem header="Haverá para para o café (coffee break)?"
+    <AccordionItem header="Haverá pausa para o café (coffee break)?"
       ><!-- TODO: Preencher horário-->
       Sim, haverá <i>coffee break</i> durante os intervalos dos minicursos nos períodos da manhã e tarde.
     </AccordionItem>
