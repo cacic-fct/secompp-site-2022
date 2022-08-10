@@ -30,11 +30,15 @@
       </NavItem>
 
       <NavItem>
+        <NavLink href="#duvidas">Dúvidas</NavLink>
+      </NavItem>
+
+      <NavItem>
         <NavLink href="#footer">Apoio</NavLink>
       </NavItem>
+
       <NavItem>
         <!-- TODO: Remover margin-left no menu colapsado-->
-        <!-- TODO: Alterar cor-->
         <Button style="margin-left: 8px;" outline>Inscrever-se</Button>
       </NavItem>
     </Nav>
