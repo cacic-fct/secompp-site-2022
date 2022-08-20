@@ -10,7 +10,6 @@
   }
 </script>
 
-<!-- TODO: Alterar a cor do bg para #000 -->
 <Navbar color="dark" container dark expand="md" class="sticky-top">
   <NavbarBrand href="#">
     <div style="height: 32px; width: 150px">

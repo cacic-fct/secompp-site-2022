@@ -14,7 +14,6 @@
       <div class="text-center intro-heading" style="font-weight: 300">
         <span class="fs-4">Junte-se a nós de 17 a 21 de outubro</span>
       </div>
-      <!-- TODO: Alterar cor-->
       <!-- TODO: Usar elemento Button? -->
       <a
         class="btn btn-primary btn-enroll"
