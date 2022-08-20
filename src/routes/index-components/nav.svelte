@@ -1,46 +1,62 @@
 <script lang="ts">
-  import logo from "$lib/img/secompp22-logo.svg";
+	import logo from '$lib/img/secompp22-logo.svg';
 
-  import { Collapse, Navbar, NavbarToggler, NavbarBrand, Nav, NavItem, NavLink, Button } from "sveltestrap";
+	import {
+		Collapse,
+		Navbar,
+		NavbarToggler,
+		NavbarBrand,
+		Nav,
+		NavItem,
+		NavLink,
+		Button
+	} from 'sveltestrap';
 
-  let isOpen = false;
+	let isOpen = false;
 
-  function handleUpdate(event: any) {
-    isOpen = event.detail.isOpen;
-  }
+	function handleUpdate(event: any) {
+		isOpen = event.detail.isOpen;
+	}
 </script>
 
-<!-- TODO: Alterar a cor do bg para #000 -->
 <Navbar color="dark" container dark expand="md" class="sticky-top">
-  <NavbarBrand href="#">
-    <div style="height: 32px; width: 150px">
-      <img src={logo} style="width: 150px" alt="Logo da SECOMPP 2022" />
-    </div></NavbarBrand
-  >
-  <NavbarToggler aria-label="Botão do menu" style="border-style: none;" on:click={() => (isOpen = !isOpen)} />
+	<NavbarBrand href="#">
+		<div style="height: 32px; width: 150px">
+			<img src={logo} style="width: 150px" alt="Logo da SECOMPP 2022" />
+		</div>
+	</NavbarBrand>
+	<NavbarToggler
+		aria-label="Botão do menu"
+		class="border border-0"
+		on:click={() => (isOpen = !isOpen)} />
 
-  <Collapse {isOpen} navbar expand="md" on:update={handleUpdate}>
-    <Nav class="ms-auto" navbar>
-      <NavItem>
-        <NavLink href="#sobre">Sobre</NavLink>
-      </NavItem>
+	<Collapse {isOpen} navbar expand="md" on:update={handleUpdate}>
+		<Nav class="ms-auto" navbar>
+			<NavItem>
+				<NavLink href="#sobre">Sobre</NavLink>
+			</NavItem>
 
-      <NavItem>
-        <NavLink href="#programacao">Programação</NavLink>
-      </NavItem>
+			<NavItem>
+				<NavLink href="#programacao">Programação</NavLink>
+			</NavItem>
 
-      <NavItem>
-        <NavLink href="#duvidas">Dúvidas</NavLink>
-      </NavItem>
+			<NavItem>
+				<NavLink href="#duvidas">Dúvidas</NavLink>
+			</NavItem>
 
-      <NavItem>
-        <NavLink href="#footer">Apoio</NavLink>
-      </NavItem>
+			<NavItem>
+				<NavLink href="#footer">Apoio</NavLink>
+			</NavItem>
 
-      <NavItem>
-        <!-- TODO: Remover margin-left no menu colapsado-->
-        <Button style="margin-left: 8px;" outline>Inscrever-se</Button>
-      </NavItem>
-    </Nav>
-  </Collapse>
+			<NavItem>
+				<Button class="nav-subscribe-btn" outline>Inscrever-se</Button>
+			</NavItem>
+		</Nav>
+	</Collapse>
 </Navbar>
+
+<style lang="sass">
+	@media (min-width: 768px) 
+	  :global(.nav-subscribe-btn) 
+      margin-left: 8px
+</style>
