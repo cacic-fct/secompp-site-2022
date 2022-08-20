@@ -1,7 +1,16 @@
 <script lang="ts">
-  import logo from "$lib/img/secompp22-logo.svg";
+  import logo from '$lib/img/secompp22-logo.svg';
 
-  import { Collapse, Navbar, NavbarToggler, NavbarBrand, Nav, NavItem, NavLink, Button } from "sveltestrap";
+  import {
+    Collapse,
+    Navbar,
+    NavbarToggler,
+    NavbarBrand,
+    Nav,
+    NavItem,
+    NavLink,
+    Button,
+  } from 'sveltestrap';
 
   let isOpen = false;
 
@@ -14,9 +23,11 @@
   <NavbarBrand href="#">
     <div style="height: 32px; width: 150px">
       <img src={logo} style="width: 150px" alt="Logo da SECOMPP 2022" />
-    </div></NavbarBrand
-  >
-  <NavbarToggler aria-label="Botão do menu" style="border-style: none;" on:click={() => (isOpen = !isOpen)} />
+    </div></NavbarBrand>
+  <NavbarToggler
+    aria-label="Botão do menu"
+    style="border-style: none;"
+    on:click={() => (isOpen = !isOpen)} />
 
   <Collapse {isOpen} navbar expand="md" on:update={handleUpdate}>
     <Nav class="ms-auto" navbar>

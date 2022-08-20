@@ -1,8 +1,8 @@
 <script>
-  import logoCacic from "$lib/img/cacic.svg";
-  import logoEjcomp from "$lib/img/ejcomp.svg";
-  import logoUnesp from "$lib/img/unesp.svg";
-  import logoDmc from "$lib/img/dmc.webp";
+  import logoCacic from '$lib/img/cacic.svg';
+  import logoEjcomp from '$lib/img/ejcomp.svg';
+  import logoUnesp from '$lib/img/unesp.svg';
+  import logoDmc from '$lib/img/dmc.webp';
 </script>
 
 <footer class="text-white bg-dark" id="footer">
@@ -19,38 +19,36 @@
           src={logoCacic}
           style="width: 100px;margin-right: 15px; margin-bottom: 5px;"
           loading="lazy"
-          alt="Centro Acadêmico de Ciência da Computação"
-        /><img
+          alt="Centro Acadêmico de Ciência da Computação" /><img
           class="d-inline-block"
           src={logoEjcomp}
           style="width: 100px;"
           loading="lazy"
-          alt="Empresa Júnior da Computação"
-        /><br /><img
+          alt="Empresa Júnior da Computação" /><br /><img
           class="d-inline-block"
           src={logoUnesp}
           style="width: 100px;margin-right: 15px;"
           loading="lazy"
-          alt="Unesp"
-        /><img
+          alt="Unesp" /><img
           class="d-inline-block"
           src={logoDmc}
           style="width: 70px;"
           loading="lazy"
-          alt="Departamento de Matemática e Computação"
-        />
+          alt="Departamento de Matemática e Computação" />
         <p style="text-align: left;font-size: 14px; font-weight: 200;">
-          <strong>PROEC</strong>&nbsp;- Pró-Reitoria de Extensão Universitária e Cultura<br /><strong>CLAE</strong> -
-          Centro Local de Apoio à Extensão<br /><strong>Fundunesp</strong> - Fundação para o Desenvolvimento
-          da&nbsp;Unesp<br />
+          <strong>PROEC</strong>&nbsp;- Pró-Reitoria de Extensão Universitária e
+          Cultura<br /><strong>CLAE</strong> - Centro Local de Apoio à Extensão<br /><strong
+            >Fundunesp</strong>
+          - Fundação para o Desenvolvimento da&nbsp;Unesp<br />
         </p>
       </div>
       <div class="col-md-4">
-        <h3 class="fs-6 text-white">FCT – Faculdade de Ciências e Tecnologia<br /></h3>
+        <h3 class="fs-6 text-white">
+          FCT – Faculdade de Ciências e Tecnologia<br />
+        </h3>
         <span style="font-weight: 200; font-size: 14px;"
-          >Universidade Estadual Paulista "Júlio de Mesquita Filho"<br />Rua Roberto Simonsen, 305<br />Presidente
-          Prudente - SP<br />19060-900</span
-        >
+          >Universidade Estadual Paulista "Júlio de Mesquita Filho"<br />Rua
+          Roberto Simonsen, 305<br />Presidente Prudente - SP<br />19060-900</span>
       </div>
     </div>
   </div>

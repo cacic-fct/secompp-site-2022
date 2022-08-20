@@ -11,8 +11,7 @@
           loading="lazy"
           allowfullscreen
           referrerpolicy="no-referrer-when-downgrade"
-          src="https://www.google.com/maps/embed/v1/place?key=AIzaSyCVY40T87ywPBvI98OCCNHrivvLlZM2n6k&region=BR&language=pt-BR&q=Faculdade de Ciências e Tecnologia - Câmpus de Presidente Prudente"
-        />
+          src="https://www.google.com/maps/embed/v1/place?key=AIzaSyCVY40T87ywPBvI98OCCNHrivvLlZM2n6k&region=BR&language=pt-BR&q=Faculdade de Ciências e Tecnologia - Câmpus de Presidente Prudente" />
       </div>
     </div>
     <div class="col-md-6">

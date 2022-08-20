@@ -1,6 +1,6 @@
 <script>
-  import minicursosIcon from "$lib/img/minicursos.svg";
-  import palestrasIcon from "$lib/img/palestras.svg";
+  import minicursosIcon from '$lib/img/minicursos.svg';
+  import palestrasIcon from '$lib/img/palestras.svg';
 </script>
 
 <div class="container schedule-container">
@@ -19,7 +19,13 @@
       </thead>
       <tbody id="schedule-table" style="color: #fefedf">
         <tr>
-          <td>15:00 <img src={minicursosIcon} alt="Minicursos" loading="lazy" class="table-icon" /> </td>
+          <td
+            >15:00 <img
+              src={minicursosIcon}
+              alt="Minicursos"
+              loading="lazy"
+              class="table-icon" />
+          </td>
           <td>Minicurso<br />Introdução à coisas estranhas</td>
           <td>Minicurso<br />Introdução à coisas estranhas</td>
           <td>Minicurso<br />Introdução à coisas estranhas</td>
@@ -27,7 +33,12 @@
           <td>Minicurso<br />Introdução à coisas estranhas</td>
         </tr>
         <tr>
-          <td>16:00 <img src={minicursosIcon} alt="Minicursos" loading="lazy" class="table-icon" /></td>
+          <td
+            >16:00 <img
+              src={minicursosIcon}
+              alt="Minicursos"
+              loading="lazy"
+              class="table-icon" /></td>
           <td>Cell 4</td>
           <td>Cell 4</td>
           <td>Cell 4</td>
@@ -43,7 +54,12 @@
           <td />
         </tr>
         <tr>
-          <td>18:00 <img src={palestrasIcon} alt="Palestras" loading="lazy" class="table-icon" /></td>
+          <td
+            >18:00 <img
+              src={palestrasIcon}
+              alt="Palestras"
+              loading="lazy"
+              class="table-icon" /></td>
           <td>Cell 4</td>
           <td>Cell 4</td>
           <td>Cell 4</td>
@@ -56,8 +72,16 @@
   <div class="caption-container">
     <div class="row" style="max-width: 574px;">
       <div class="col-sm" style="max-width: 150px;">
-        <img src={minicursosIcon} loading="lazy" alt="Ícone minicurso" class="caption-icon" />&ensp;Minicurso
-        <br /><img src={palestrasIcon} alt="Ícone palestra" loading="lazy" class="caption-icon" />&ensp;Palestra
+        <img
+          src={minicursosIcon}
+          loading="lazy"
+          alt="Ícone minicurso"
+          class="caption-icon" />&ensp;Minicurso
+        <br /><img
+          src={palestrasIcon}
+          alt="Ícone palestra"
+          loading="lazy"
+          class="caption-icon" />&ensp;Palestra
       </div>
       <div class="col-sm">
         <p style="color: var(--bs-gray-600)" id="caption-large-screen">
@@ -143,13 +167,15 @@
   }
 
   .table-icon {
-    filter: invert(100%) sepia(64%) saturate(532%) hue-rotate(353deg) brightness(109%) contrast(99%);
+    filter: invert(100%) sepia(64%) saturate(532%) hue-rotate(353deg)
+      brightness(109%) contrast(99%);
     float: right;
     width: 22px;
   }
 
   .caption-icon {
-    filter: invert(48%) sepia(10%) saturate(449%) hue-rotate(167deg) brightness(90%) contrast(82%);
+    filter: invert(48%) sepia(10%) saturate(449%) hue-rotate(167deg)
+      brightness(90%) contrast(82%);
     width: 22px;
   }
 </style>

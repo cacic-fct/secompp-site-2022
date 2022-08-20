@@ -1,7 +1,7 @@
 $body-color: #fefedf;
 $background-color: #000;
 
-@import "../node_modules/bootstrap/scss/bootstrap";
+@import '../node_modules/bootstrap/scss/bootstrap';
 
 :root {
   --bs-dark-rgb: 0, 0, 0;
@@ -73,6 +73,6 @@ $background-color: #000;
 
 section:before {
   height: 58px;
-  content: "";
+  content: '';
   display: block;
 }
