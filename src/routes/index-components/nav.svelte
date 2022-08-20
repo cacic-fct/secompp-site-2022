@@ -56,7 +56,7 @@
 </Navbar>
 
 <style lang="sass">
-	@media (min-width: 768px) 
-	  :global(.nav-subscribe-btn) 
-      margin-left: 8px
+	:global(.nav-subscribe-btn) 
+		@media (min-width: 768px) 
+			margin-left: 8px
 </style>
