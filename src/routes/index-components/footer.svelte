@@ -38,21 +38,31 @@
 					loading="lazy"
 					alt="Departamento de Matemática e Computação" />
 				<p class="text-start fs-light" style="font-size: 14px">
-					<b>PROEC</b>&nbsp;- Pró-Reitoria de Extensão Universitária e Cultura<br />
+					<b>PROEC</b> - Pró-Reitoria de Extensão Universitária e Cultura<br />
 					<b>CLAE</b> - Centro Local de Apoio à Extensão<br />
 					<b>Fundunesp</b> - Fundação para o Desenvolvimento da&nbsp;Unesp<br />
 				</p>
 			</div>
 			<div class="col-md-4">
-				<h3 class="fs-6 text-white">
-					FCT – Faculdade de Ciências e Tecnologia<br />
-				</h3>
-				<span style="font-size: 14px;" class="fw-light">
-					Universidade Estadual Paulista "Júlio de Mesquita Filho"<br />
-					Rua Roberto Simonsen, 305<br />
-					Presidente Prudente - SP<br />
-					19060-900
-				</span>
+				<address>
+					<h3 class="fs-6 text-white">
+						FCT – Faculdade de Ciências e Tecnologia<br />
+					</h3>
+					<span class="fw-light small">
+						Universidade Estadual Paulista "Júlio de Mesquita Filho"<br />
+						Rua Roberto Simonsen, 305<br />
+						Presidente Prudente - SP<br />
+						19060-900
+					</span>
+					<br />
+					<a role="button" href="mailto:dmc@fct.unesp.br?subject=SECOMPP-2022">
+						<i class="bi bi-envelope fs-4" />
+					</a>
+					&nbsp;
+					<a role="button" href="tel:1832295600">
+						<i class="bi bi-telephone fs-4" />
+					</a>
+				</address>
 			</div>
 		</div>
 	</div>
@@ -74,4 +84,7 @@
 	
 	.img-70 
 		width: 70px
+
+	address > a		
+		color: white
 </style>
