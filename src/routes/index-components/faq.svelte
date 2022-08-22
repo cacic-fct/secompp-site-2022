@@ -39,20 +39,23 @@
       Caso prefira, você pode realizar o pagamento presencialmente na sede da FUNDACTE,
       nas dependências da FCT-Unesp.
     </AccordionItem>
-    <AccordionItem header="Haverá certificado de participação?"
-      >Sim, tendo realizado a sua inscrição e efetuado o pagamento, haverá a
+    <AccordionItem header="Haverá certificado de participação?">
+      Sim, tendo realizado a sua inscrição e efetuado o pagamento, haverá a
       emissão de certificados após a confirmação da sua presença nos minicursos
-      ou palestras.</AccordionItem>
-    <AccordionItem header="Há algum tipo de evento livre para participação?"
-      >Sim, todas as palestras são abertas ao público. No entanto, os
-      certificados só serão gerados aos participantes pagantes.</AccordionItem>
-    <AccordionItem header="Haverá pausa para o café (coffee break)?"
-      ><!-- TODO: Preencher horário-->
+      ou palestras.
+    </AccordionItem>
+    <AccordionItem header="Há algum tipo de evento livre para participação?">
+      Sim, todas as palestras são abertas ao público. No entanto, os
+      certificados só serão gerados aos participantes pagantes.
+    </AccordionItem>
+    <AccordionItem header="Haverá pausa para o café (coffee break)?">
+      <!-- TODO: Preencher horário-->
       Sim, haverá <i>coffee break</i> durante os intervalos dos minicursos nos períodos
       da manhã e tarde.
     </AccordionItem>
-    <AccordionItem header="Haverá intervalo para o almoço?"
-      ><!-- TODO: Preencher horário-->
-      Sim, o intervalo será das 00:00 às 00:00.</AccordionItem>
+    <AccordionItem header="Haverá intervalo para o almoço?">
+      <!-- TODO: Preencher horário-->
+      Sim, o intervalo será das 00:00 às 00:00.
+    </AccordionItem>
   </Accordion>
 </div>

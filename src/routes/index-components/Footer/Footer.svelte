@@ -4,6 +4,7 @@
   import logoUnesp from '$lib/img/unesp.svg';
   import logoDmc from '$lib/img/dmc.webp';
   import { Envelope, Telephone } from 'svelte-bootstrap-icons';
+  import ImgLink from './ImgLink.svelte';
 </script>
 
 <footer class="text-white bg-dark" id="footer">
@@ -14,38 +15,32 @@
         <!-- TODO: Incluir ícones dos patrocinadores -->
       </div>
       <div class="col-md-4">
-        <h3 class="fs-6 text-white">Realização</h3>
-        <a href="https://cacic-fct.web.app/" target="_blank">
-          <img
-            class="d-inline-block img-100 mb-1"
+        <h3 class="fs-6 text-white mb-3">Realização</h3>
+        <div>
+          <ImgLink
+            href="https://cacic-fct.web.app/"
             src={logoCacic}
-            loading="lazy"
-            alt="Centro Acadêmico de Ciência da Computação" />
-        </a>
-        <a href="https://www.ejcomp.com.br/" target="_blank">
-          <img
-            class="d-inline-block img-100 mx-3"
+            alt="Centro Acadêmico de Ciência da Computação"
+            marginBottom />
+          <ImgLink
+            marginX
+            href="https://www.ejcomp.com.br/"
             src={logoEjcomp}
-            loading="lazy"
             alt="Empresa Júnior da Computação" />
-        </a>
-        <br />
-        <a href="https://www.fct.unesp.br" target="_blank">
-          <img
-            class="d-inline-block img-100"
+
+          <br />
+          <ImgLink
+            href="https://www.fct.unesp.br"
             src={logoUnesp}
-            loading="lazy"
             alt="Unesp" />
-        </a>
-        <a
-          href="https://www.fct.unesp.br/#!/departamentos/matematica-e-computacao/"
-          target="_blank">
-          <img
-            class="d-inline-block img-70 mx-3"
+          <ImgLink
+            href="https://www.fct.unesp.br/#!/departamentos/matematica-e-computacao/"
+            size="sm"
             src={logoDmc}
-            loading="lazy"
-            alt="Departamento de Matemática e Computação" />
-        </a>
+            alt="Departamento de Matemática e Computação"
+            marginX
+            marginBottom />
+        </div>
         <p class="text-start fs-light small">
           <b>PROEC</b> - Pró-Reitoria de Extensão Universitária e Cultura<br />
           <b>CLAE</b> - Centro Local de Apoio à Extensão<br />
@@ -99,13 +94,5 @@
 
   b {
     font-weight: 500;
-  }
-
-  .img-100 {
-    width: 100px;
-  }
-
-  .img-70 {
-    width: 70px;
   }
 </style>
