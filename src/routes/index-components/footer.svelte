@@ -3,6 +3,7 @@
   import logoEjcomp from '$lib/img/ejcomp.svg';
   import logoUnesp from '$lib/img/unesp.svg';
   import logoDmc from '$lib/img/dmc.webp';
+  import { Envelope, Telephone } from 'svelte-bootstrap-icons';
 </script>
 
 <footer class="text-white bg-dark" id="footer">
@@ -55,12 +56,14 @@
             19060-900
           </span>
           <br />
-          <a role="button" href="mailto:dmc@fct.unesp.br?subject=SECOMPP-2022">
-            <i class="bi bi-envelope fs-4" />
+          <a
+            id="contact-mail"
+            role="button"
+            href="mailto:dmc@fct.unesp.br?subject=SECOMPP-2022">
+            <Envelope color="white" width="24" height="24" />
           </a>
-          &nbsp;
-          <a role="button" href="tel:1832295600">
-            <i class="bi bi-telephone fs-4" />
+          <a id="contact-phone" role="button" href="tel:1832295600">
+            <Telephone color="white" width="24" height="24" />
           </a>
         </address>
       </div>
@@ -68,23 +71,33 @@
   </div>
 </footer>
 
-<style lang="sass">
-	.footer-row > .col-md-4 
-		margin-top: 20px
-	
-	footer 
-		margin-bottom: 24px
-		margin-top: 32px
-	
-	b 
-		font-weight: 500
-	
-	.img-100 
-		width: 100px
-	
-	.img-70 
-		width: 70px
+<style lang="scss">
+  #contact-mail {
+    padding-right: 0.75rem;
+  }
 
-	address > a		
-		color: white
+  #contact-phone {
+    padding-left: 0.75rem;
+  }
+
+  .footer-row > .col-md-4 {
+    margin-top: 20px;
+  }
+
+  footer {
+    margin-bottom: 24px;
+    margin-top: 32px;
+  }
+
+  b {
+    font-weight: 500;
+  }
+
+  .img-100 {
+    width: 100px;
+  }
+
+  .img-70 {
+    width: 70px;
+  }
 </style>
