@@ -59,7 +59,7 @@
           <a
             id="contact-mail"
             role="button"
-            href="mailto:dmc@fct.unesp.br?subject=SECOMPP-2022">
+            href="mailto:cacic.fct@gmail.com?subject=Contato SECOMPP22">
             <Envelope color="white" width="24" height="24" />
           </a>
           <a id="contact-phone" role="button" href="tel:1832295600">
