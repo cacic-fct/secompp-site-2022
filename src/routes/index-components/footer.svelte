@@ -15,30 +15,38 @@
       </div>
       <div class="col-md-4">
         <h3 class="fs-6 text-white">Realização</h3>
-        <img
-          class="d-inline-block img-100 mr-2 mb-1"
-          src={logoCacic}
-          style="margin-right: 15px;"
-          loading="lazy"
-          alt="Centro Acadêmico de Ciência da Computação" />
-        <img
-          class="d-inline-block img-100"
-          src={logoEjcomp}
-          loading="lazy"
-          alt="Empresa Júnior da Computação" />
+        <a href="https://cacic-fct.web.app/" target="_blank">
+          <img
+            class="d-inline-block img-100 mb-1"
+            src={logoCacic}
+            loading="lazy"
+            alt="Centro Acadêmico de Ciência da Computação" />
+        </a>
+        <a href="https://www.ejcomp.com.br/" target="_blank">
+          <img
+            class="d-inline-block img-100 mx-3"
+            src={logoEjcomp}
+            loading="lazy"
+            alt="Empresa Júnior da Computação" />
+        </a>
         <br />
-        <img
-          class="d-inline-block img-100"
-          src={logoUnesp}
-          style="margin-right: 15px;"
-          loading="lazy"
-          alt="Unesp" />
-        <img
-          class="d-inline-block img-70"
-          src={logoDmc}
-          loading="lazy"
-          alt="Departamento de Matemática e Computação" />
-        <p class="text-start fs-light" style="font-size: 14px">
+        <a href="https://www.fct.unesp.br" target="_blank">
+          <img
+            class="d-inline-block img-100"
+            src={logoUnesp}
+            loading="lazy"
+            alt="Unesp" />
+        </a>
+        <a
+          href="https://www.fct.unesp.br/#!/departamentos/matematica-e-computacao/"
+          target="_blank">
+          <img
+            class="d-inline-block img-70 mx-3"
+            src={logoDmc}
+            loading="lazy"
+            alt="Departamento de Matemática e Computação" />
+        </a>
+        <p class="text-start fs-light small">
           <b>PROEC</b> - Pró-Reitoria de Extensão Universitária e Cultura<br />
           <b>CLAE</b> - Centro Local de Apoio à Extensão<br />
           <b>Fundunesp</b> - Fundação para o Desenvolvimento da&nbsp;Unesp<br />
