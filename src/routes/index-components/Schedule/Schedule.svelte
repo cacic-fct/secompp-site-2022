@@ -85,10 +85,6 @@
 </div>
 
 <style lang="scss">
-  table.table {
-    white-space: nowrap;
-  }
-
   tbody tr td div {
     @media (min-width: 574px) {
       display: flex;
