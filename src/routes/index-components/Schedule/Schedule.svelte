@@ -7,7 +7,7 @@
 <div class="container schedule-container">
   <h1>Programação</h1>
   <div class="table-responsive" style="--bs-secondary-rgb: 255, 255, 255">
-    <table class="table m-0">
+    <table class="table">
       <thead style="color: #fefedf">
         <tr>
           <th />
