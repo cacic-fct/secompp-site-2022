@@ -1,13 +1,13 @@
 <script lang="ts">
-  import { Accordion, AccordionItem } from "sveltestrap";
+  import { Accordion, AccordionItem } from 'sveltestrap';
 </script>
 
 <div class="container">
   <h1>Dúvidas</h1>
   <Accordion>
     <AccordionItem header="Quem pode participar?">
-      Qualquer pessoa pode participar do evento, basta <a href="https://fct-pp.web.app/"
-        >realizar a sua inscrição aqui</a
+      Qualquer pessoa pode participar do evento, basta <a
+        href="https://fct-pp.web.app/">realizar a sua inscrição aqui</a
       >.
     </AccordionItem>
     <AccordionItem header="Como realizo a minha inscrição?">
@@ -17,7 +17,8 @@
       <!-- TODO: Preencher o fluxo de pagamento de acordo com o FCT App -->
       Após realizar a sua inscrição, você visualizará as instruções para o pagamento.
       <br />
-      Para a sua comodidade, faça uma transferência utilizando a chave Pix ou os dados da conta bancária.
+      Para a sua comodidade, faça uma transferência utilizando a chave Pix ou os
+      dados da conta bancária.
       <br />
       <br />
       <b>Fundação de Ciência Tecnologia e Ensino</b>
@@ -34,23 +35,23 @@
       <br />
       Anexe o comprovante do pagamento em xxxxxxx
       <br />
-      Caso prefira, você pode realizar o pagamento presencialmente na sede da FUNDACTE, nas dependências da FCT-Unesp.
+      Caso prefira, você pode realizar o pagamento presencialmente na sede da FUNDACTE,
+      nas dependências da FCT-Unesp.
     </AccordionItem>
     <AccordionItem header="Haverá certificado de participação?"
-      >Sim, tendo realizado a sua inscrição e efetuado o pagamento, haverá a emissão de certificados após a confirmação
-      da sua presença nos minicursos ou palestras.</AccordionItem
-    >
+      >Sim, tendo realizado a sua inscrição e efetuado o pagamento, haverá a
+      emissão de certificados após a confirmação da sua presença nos minicursos
+      ou palestras.</AccordionItem>
     <AccordionItem header="Há algum tipo de evento livre para participação?"
-      >Sim, todas as palestras são abertas ao público. No entanto, os certificados só serão gerados aos participantes
-      pagantes.</AccordionItem
-    >
+      >Sim, todas as palestras são abertas ao público. No entanto, os
+      certificados só serão gerados aos participantes pagantes.</AccordionItem>
     <AccordionItem header="Haverá pausa para o café (coffee break)?"
       ><!-- TODO: Preencher horário-->
-      Sim, haverá <i>coffee break</i> durante os intervalos dos minicursos nos períodos da manhã e tarde.
+      Sim, haverá <i>coffee break</i> durante os intervalos dos minicursos nos períodos
+      da manhã e tarde.
     </AccordionItem>
     <AccordionItem header="Haverá intervalo para o almoço?"
       ><!-- TODO: Preencher horário-->
-      Sim, o intervalo será das 00:00 às 00:00.</AccordionItem
-    >
+      Sim, o intervalo será das 00:00 às 00:00.</AccordionItem>
   </Accordion>
 </div>
