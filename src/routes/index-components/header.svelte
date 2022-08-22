@@ -1,5 +1,6 @@
 <script>
   import logo from '$lib/img/secompp22-logo.svg';
+  import { Button } from 'sveltestrap';
 </script>
 
 <header class="header-bg">
@@ -19,12 +20,9 @@
       <div class="text-center intro-heading">
         <span class="fs-4 fw-light">Junte-se a nós de 17 a 21 de outubro</span>
       </div>
-      <!-- TODO: Alterar cor-->
-      <!-- TODO: Usar elemento Button? -->
-      <a
-        class="btn btn-primary btn-enroll subscribe-btn"
-        role="button"
-        href="https://fct-pp.web.app">Inscrever-se</a>
+      <Button outline class="my-3" size="lg" href="https://fct-pp.web.app">
+        Inscrever-se
+      </Button>
     </div>
   </div>
 </header>
@@ -34,16 +32,6 @@
     padding: 10px;
     padding-bottom: 24px;
     padding-top: 24px;
-  }
-
-  .subscribe-btn {
-    margin-top: 20px;
-    margin-bottom: 20px;
-    background: transparent;
-    padding-left: 16px;
-    padding-right: 16px;
-    padding-bottom: 8px;
-    padding-top: 8px;
   }
 
   .secompp-logo {
