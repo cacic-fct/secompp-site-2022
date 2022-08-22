@@ -13,7 +13,7 @@
           <div class="col-auto col-md-2" aria-hidden="true">
             <img
               src={logoSquare}
-              style="width: 48px; padding-bottom: 10px"
+              class="logo-about"
               loading="lazy"
               alt="Miniatura da logo da SECOMPP" />
           </div>
@@ -34,13 +34,12 @@
         </div>
       </div>
       <div
-        class="d-flex align-items-center align-items-md-start align-items-xl-center"
-        style="padding-top: 25.5px">
+        class="d-flex align-items-center align-items-md-start align-items-xl-center pt-4">
         <div class="row">
           <div class="col-auto col-md-2" aria-hidden="true">
             <img
               src={unespLogo}
-              style="width: 48px; padding-bottom: 10px"
+              class="logo-about"
               loading="lazy"
               alt="Logo da Unesp" />
           </div>
@@ -65,3 +64,9 @@
   </div>
   <hr />
 </div>
+
+<style lang="sass">
+  .logo-about
+    width: 48px
+    padding-bottom: 10px
+</style>

@@ -69,29 +69,35 @@
       </tbody>
     </table>
   </div>
-  <div class="caption-container">
+  <div class="caption-container small">
     <div class="row" style="max-width: 574px;">
-      <div class="col-sm" style="max-width: 150px;">
-        <img
-          src={minicursosIcon}
-          loading="lazy"
-          alt="Ícone minicurso"
-          class="caption-icon" />&ensp;Minicurso
-        <br /><img
-          src={palestrasIcon}
-          alt="Ícone palestra"
-          loading="lazy"
-          class="caption-icon" />&ensp;Palestra
+      <div id="icon-desc" class="col-sm">
+        <div>
+          <img
+            src={minicursosIcon}
+            loading="lazy"
+            alt="Ícone minicurso"
+            class="caption-icon" />
+          &ensp;Minicurso
+        </div>
+        <div>
+          <img
+            src={palestrasIcon}
+            alt="Ícone palestra"
+            loading="lazy"
+            class="caption-icon" />
+          &ensp;Palestra
+        </div>
       </div>
       <div class="col-sm">
-        <p style="color: var(--bs-gray-600)" id="caption-large-screen">
+        <p class="caption-gray" id="caption-large-screen">
           Clique no evento para visualizar mais informações.<br />
         </p>
         <div id="caption-small-screen">
-          <p style="color: var(--bs-gray-600); margin-bottom: 0px">
-            Arraste para esquerda para visualizar mais eventos.<br />
+          <p class="mb-0">
+            Arraste para esquerda para visualizar mais eventos.
           </p>
-          <p style="color: var(--bs-gray-600)">
+          <p>
             Clique ou toque no evento para visualizar mais informações.<br />
           </p>
         </div>
@@ -101,6 +107,14 @@
 </div>
 
 <style lang="scss">
+  @mixin typo-gray {
+    color: var(--bs-gray-600);
+  }
+
+  .caption-gray {
+    @include typo-gray;
+  }
+
   th:first-child,
   td:first-child {
     position: sticky;
@@ -112,6 +126,23 @@
     padding-top: 0px;
     padding-bottom: 1px;
     background: #dfdfdf;
+  }
+
+  #icon-desc {
+    @media (min-width: 574px) {
+      max-width: 150px;
+      > div:first-child {
+        margin-bottom: 1rem;
+      }
+    }
+
+    @media (max-width: 574px) {
+      display: flex;
+      > div {
+        flex: 0 0 auto;
+        width: 50%;
+      }
+    }
   }
 
   #schedule-table > tr > td:not(:first-child) {
@@ -130,6 +161,7 @@
 
   @media (max-width: 1199px) {
     #caption-large-screen {
+      @include typo-gray;
       display: none;
     }
   }
@@ -150,6 +182,7 @@
   }
 
   .caption-container {
+    @include typo-gray;
     @media (min-width: 576px) {
       max-width: 767px;
     }
@@ -162,7 +195,6 @@
       padding: 0px 24px;
     }
     padding: 12px;
-    color: var(--bs-gray-600);
     margin: auto;
   }
 

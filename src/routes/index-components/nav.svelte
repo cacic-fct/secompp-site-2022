@@ -23,10 +23,11 @@
   <NavbarBrand href="#">
     <div style="height: 32px; width: 150px">
       <img src={logo} style="width: 150px" alt="Logo da SECOMPP 2022" />
-    </div></NavbarBrand>
+    </div>
+  </NavbarBrand>
   <NavbarToggler
     aria-label="Botão do menu"
-    style="border-style: none;"
+    class="border border-0"
     on:click={() => (isOpen = !isOpen)} />
 
   <Collapse {isOpen} navbar expand="md" on:update={handleUpdate}>
@@ -48,9 +49,14 @@
       </NavItem>
 
       <NavItem>
-        <!-- TODO: Remover margin-left no menu colapsado-->
-        <Button style="margin-left: 8px;" outline>Inscrever-se</Button>
+        <Button class="nav-subscribe-btn" outline>Inscrever-se</Button>
       </NavItem>
     </Nav>
   </Collapse>
 </Navbar>
+
+<style lang="sass">
+	:global(.nav-subscribe-btn) 
+		@media (min-width: 768px) 
+			margin-left: 8px
+</style>
