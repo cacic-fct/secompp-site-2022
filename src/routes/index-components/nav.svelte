@@ -21,9 +21,7 @@
 
 <Navbar color="dark" container dark expand="md" class="sticky-top">
   <NavbarBrand href="#">
-    <div style="height: 32px; width: 150px">
-      <img src={logo} style="width: 150px" alt="Logo da SECOMPP 2022" />
-    </div>
+    <img src={logo} class="py-1" width="150" alt="Logo da SECOMPP 2022" />
   </NavbarBrand>
   <NavbarToggler
     aria-label="Botão do menu"
@@ -49,7 +47,9 @@
       </NavItem>
 
       <NavItem>
-        <Button class="nav-subscribe-btn" outline>Inscrever-se</Button>
+        <Button outline class="nav-subscribe-btn" href="https://fct-pp.web.app">
+          Inscrever-se
+        </Button>
       </NavItem>
     </Nav>
   </Collapse>
