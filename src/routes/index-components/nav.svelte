@@ -55,8 +55,10 @@
   </Collapse>
 </Navbar>
 
-<style lang="sass">
-	:global(.nav-subscribe-btn) 
-		@media (min-width: 768px) 
-			margin-left: 8px
+<style lang="scss">
+  :global(.nav-subscribe-btn) {
+    @media (min-width: 768px) {
+      margin-left: 8px;
+    }
+  }
 </style>

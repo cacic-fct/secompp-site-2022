@@ -29,25 +29,29 @@
   </div>
 </header>
 
-<style lang="sass">
-  .intro-lead-in-padding
-    padding: 10px
-    padding-bottom: 24px
-    padding-top: 24px
+<style lang="scss">
+  .intro-lead-in-padding {
+    padding: 10px;
+    padding-bottom: 24px;
+    padding-top: 24px;
+  }
 
-  .subscribe-btn
-    margin-top: 20px
-    margin-bottom: 20px
-    background: transparent
-    padding-left: 16px
-    padding-right: 16px
-    padding-bottom: 8px
-    padding-top: 8px
+  .subscribe-btn {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background: transparent;
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-bottom: 8px;
+    padding-top: 8px;
+  }
 
-	.secompp-logo
-	  max-width: 750px
+  .secompp-logo {
+    max-width: 750px;
+  }
 
-	.header-bg
-	  background: linear-gradient(0deg, black 0%, rgb(33, 32, 13) 100%)
-    padding-top: 50px
+  .header-bg {
+    background: linear-gradient(0deg, black 0%, rgb(33, 32, 13) 100%);
+    padding-top: 50px;
+  }
 </style>

@@ -65,8 +65,9 @@
   <hr />
 </div>
 
-<style lang="sass">
-  .logo-about
-    width: 48px
-    padding-bottom: 10px
+<style lang="scss">
+  .logo-about {
+    width: 48px;
+    padding-bottom: 10px;
+  }
 </style>
