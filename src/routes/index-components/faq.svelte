@@ -6,9 +6,10 @@
   <h1>Dúvidas</h1>
   <Accordion>
     <AccordionItem header="Quem pode participar?">
-      Qualquer pessoa pode participar do evento, basta <a
-        href="https://fct-pp.web.app/">realizar a sua inscrição aqui</a
-      >.
+      Qualquer pessoa pode participar do evento, basta
+      <a class="fw-bold" href="https://fct-pp.web.app/" target="_blank">
+        realizar a sua inscrição aqui
+      </a>.
     </AccordionItem>
     <AccordionItem header="Como realizo a minha inscrição?">
       <!-- TODO: Passo a passo do processo de inscrição no FCT App -->
