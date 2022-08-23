@@ -13,10 +13,6 @@
   } from 'sveltestrap';
 
   let isOpen = false;
-
-  function handleUpdate(event: any) {
-    isOpen = event.detail.isOpen;
-  }
 </script>
 
 <Navbar color="dark" container dark expand="md" class="sticky-top">
@@ -28,7 +24,7 @@
     class="border border-0"
     on:click={() => (isOpen = !isOpen)} />
 
-  <Collapse {isOpen} navbar expand="md" on:update={handleUpdate}>
+  <Collapse {isOpen} navbar expand="md">
     <Nav class="ms-auto" navbar>
       <NavItem>
         <NavLink href="#sobre">Sobre</NavLink>
