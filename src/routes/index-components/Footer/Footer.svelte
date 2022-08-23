@@ -61,12 +61,23 @@
           <br />
           <a
             id="contact-mail"
-            role="button"
+            aria-label="email de contato cacic"
             href="mailto:cacic.fct@gmail.com?subject=Contato SECOMPP22">
-            <Envelope color="white" width="24" height="24" />
+            <Envelope
+              aria-label="ícone email"
+              color="white"
+              width="24"
+              height="24" />
           </a>
-          <a id="contact-phone" role="button" href="tel:1832295600">
-            <Telephone color="white" width="24" height="24" />
+          <a
+            id="contact-phone"
+            href="tel:1832295600"
+            aria-label="telefone de contato cacic">
+            <Telephone
+              aria-label="ícone telefone"
+              color="white"
+              width="24"
+              height="24" />
           </a>
         </address>
       </div>

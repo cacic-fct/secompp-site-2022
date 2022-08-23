@@ -39,7 +39,7 @@
 
 <style lang="scss">
   @mixin typo-gray {
-    color: var(--bs-gray-600);
+    color: var(--bs-gray-500);
   }
 
   .caption-gray {
