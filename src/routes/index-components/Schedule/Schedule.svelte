@@ -98,15 +98,14 @@
     }
   }
 
-  th:first-child,
-  td:first-child {
+  :is(th, td):first-child {
     position: sticky;
     background-color: #000;
     left: 0px;
 
-    /* 
+    /*
       Buscando solução para esta gambiarra
-      Na tela de celular o layout da tabela fica 
+      Na tela de celular o layout da tabela fica
       "vazando" o conteúdo pra esquerda
     */
     @media (max-width: 574px) {

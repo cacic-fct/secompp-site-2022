@@ -3,7 +3,7 @@
   import palestrasIcon from '$lib/img/palestras.svg';
 </script>
 
-<div class="caption-container small">
+<div class="caption-container small" aria-label="legenda da tabela de horários">
   <div class="row" style="max-width: 574px;">
     <div id="icon-desc" class="col-sm">
       <div>
@@ -47,16 +47,16 @@
   }
 
   #icon-desc {
-    @media (min-width: 574px) {
+    @media (min-width: 575px) {
       max-width: 150px;
-      > div:first-child {
+      div:first-child {
         margin-bottom: 1rem;
       }
     }
 
     @media (max-width: 574px) {
       display: flex;
-      > div {
+      div {
         flex: 0 0 auto;
         width: 50%;
       }
@@ -82,7 +82,7 @@
 
   .caption-container {
     @include typo-gray;
-    @media (min-width: 576px) {
+    @media (min-width: 575px) {
       max-width: 767px;
     }
     @media (min-width: 768px) {

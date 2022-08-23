@@ -49,13 +49,14 @@ $background-color: #000;
   --bs-btn-disabled-bg: transparent;
   --bs-btn-disabled-border-color: #6c757d;
   --bs-gradient: none;
+  opacity: 1;
   transition: 0.3s;
-}
+  transition-property: opacity, background-color;
 
-.btn:hover {
-  opacity: 0.5;
-  background-color: rgba(0, 0, 0, 0);
-  transition: 0.3s;
+  &:hover {
+    opacity: 0.5;
+    background-color: rgba(0, 0, 0, 0);
+  }
 }
 
 .navbar-dark {
@@ -64,11 +65,12 @@ $background-color: #000;
 }
 
 .navbar-brand {
-  transition: 0.3s;
-}
-.navbar-brand:hover {
-  opacity: 0.5;
-  transition: 0.3s;
+  opacity: 1;
+  transition: opacity 0.3s;
+
+  &:hover {
+    opacity: 0.5;
+  }
 }
 
 section:before {
