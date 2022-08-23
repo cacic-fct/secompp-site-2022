@@ -14,8 +14,9 @@
           alt="Logo SECOMPP 2022" />
       </div>
       <div class="text-center intro-heading">
-        <span class="fs-3 fw-semibold"
-          >19ª Semana do Curso de Ciência da Computação da FCT-Unesp</span>
+        <span class="fs-3 fw-semibold">
+          19ª Semana do Curso de Ciência da Computação da FCT-Unesp
+        </span>
       </div>
       <div class="text-center intro-heading">
         <span class="fs-4 fw-light">Junte-se a nós de 17 a 21 de outubro</span>
