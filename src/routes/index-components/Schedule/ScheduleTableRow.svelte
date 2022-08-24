@@ -5,11 +5,13 @@
     findEvent,
     getEventStart,
     getEventType,
+    type ScheduleEventClickHandler,
     type ScheduleEventRow,
   } from './ScheduleData';
   import ScheduleTableCell from './ScheduleTableCell.svelte';
 
   export let schedule: ScheduleEventRow;
+  export let onClickEvent: ScheduleEventClickHandler;
 
   const event = findEvent(schedule);
 
@@ -35,7 +37,7 @@
   </td>
   {#each schedule as event}
     {#if event}
-      <ScheduleTableCell {event} />
+      <ScheduleTableCell {onClickEvent} {event} />
     {:else}
       <td aria-hidden="true" aria-disabled="true" />
     {/if}

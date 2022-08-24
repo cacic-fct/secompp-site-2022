@@ -1,8 +1,24 @@
 <script lang="ts">
-  import Caption from './Caption.svelte';
+  import { Modal, ModalBody, ModalHeader } from 'sveltestrap';
 
-  import ScheduleData from './ScheduleData';
+  import Caption from './Caption.svelte';
+  import EventModal from './EventModal.svelte';
+
+  import ScheduleData, {
+    getEventEnd,
+    getEventStart,
+    type ScheduleEvent,
+    type ScheduleEventClickHandler,
+  } from './ScheduleData';
   import ScheduleTableRow from './ScheduleTableRow.svelte';
+
+  let isOpen = false;
+  let event: ScheduleEvent | null;
+  const toggle = () => (isOpen = !isOpen);
+  const onClickEvent: ScheduleEventClickHandler = ev => {
+    isOpen = true;
+    event = ev;
+  };
 </script>
 
 <div class="container schedule-container">
@@ -21,12 +37,15 @@
       </thead>
       <tbody>
         {#each ScheduleData as schedule}
-          <ScheduleTableRow {schedule} />
+          <ScheduleTableRow {onClickEvent} {schedule} />
         {/each}
       </tbody>
     </table>
   </div>
   <Caption />
+  {#if event}
+    <EventModal {event} {isOpen} {toggle} />
+  {/if}
 </div>
 
 <style lang="scss">

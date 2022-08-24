@@ -82,3 +82,22 @@ section:before {
 .smaller {
   font-size: 0.75rem;
 }
+
+.modal-content {
+  --bs-modal-bg: rgb(29, 30, 31);
+  --bs-modal-color: $body-color;
+  // --bs-modal-header-border-color: #fdbd00;
+}
+
+.modal-title {
+  color: #fdbd00;
+}
+
+.modal-header .btn-close {
+  filter: invert(100%);
+  opacity: 1;
+  &:hover {
+    filter: invert(72%) sepia(98%) saturate(1599%) hue-rotate(359deg)
+      brightness(101%) contrast(103%);
+  }
+}

@@ -1,11 +1,16 @@
 <script lang="ts">
-  import type { ScheduleEvent } from './ScheduleData';
+  import type {
+    ScheduleEvent,
+    ScheduleEventClickHandler,
+  } from './ScheduleData';
 
   export let event: ScheduleEvent;
+  export let onClickEvent: ScheduleEventClickHandler;
+  let click = () => onClickEvent(event);
 </script>
 
 <td tabindex="0" role="button" class="shadow-sm">
-  <div class="d-block">
+  <div class="d-block" on:click={click}>
     <span class="fw-bold">{event.eventName}</span>
     {#if event.shortDescription}
       <br />

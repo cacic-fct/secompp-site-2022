@@ -13,6 +13,9 @@ export type ScheduleEvent = {
 export type ScheduleEventList = Array<ScheduleEvent>;
 export type ScheduleEventRow = Array<ScheduleEvent | null>;
 export type ScheduleEventGrid = Array<ScheduleEventRow>;
+export interface ScheduleEventClickHandler {
+  (event: ScheduleEvent): void;
+}
 
 function createEvent(
   eventName: string,
@@ -52,7 +55,8 @@ const ScheduleData: ScheduleEventList = [
     30,
     'Minicurso destinado a ensinar sobre tecnologias das\
  profundezas da esquisitice como JavaScript',
-    'Tecnologias sinistras e sem sentido'
+    'Tecnologias sinistras e sem sentido',
+    [{ name: 'Igor', description: 'Viciado em ECMAScript' }]
   ),
   createEvent(
     'Introdução à POO',
@@ -62,7 +66,8 @@ const ScheduleData: ScheduleEventList = [
     60,
     'Minicurso destinado ao ensino das bases da programação orientada a objetos,\
  paradigma de muitas linguagens como Java, C++, C#, etc.',
-    'Bases da Programação Orientada a Objeto'
+    'Bases da Programação Orientada a Objeto',
+    [{ description: '', name: 'Renan' }]
   ),
   createEvent(
     'Inteligência Artificial',
@@ -71,7 +76,11 @@ const ScheduleData: ScheduleEventList = [
     new Date('2022-10-12T18:00'),
     60,
     'Palestra explicativa sobre inteligência artificial, suas origens e áreas de aplicação',
-    'Inteligência artificial, Machine Learning e Redes Neurais'
+    'Inteligência artificial, Machine Learning e Redes Neurais',
+    [
+      { description: '', name: 'Igor' },
+      { description: '', name: 'Vinícius' },
+    ]
   ),
   createEvent(
     'Arquitetura de Computadores',
@@ -107,6 +116,10 @@ export function findEvent(
 
 export function getEventStart(event: ScheduleEvent | null | undefined) {
   return event?.startTime.toTimeString().slice(0, 5) ?? '00:00';
+}
+
+export function getEventEnd(event: ScheduleEvent | null | undefined) {
+  return event?.endTime.toTimeString().slice(0, 5) ?? '00:00';
 }
 
 export function getEventType(event: ScheduleEvent | undefined) {
