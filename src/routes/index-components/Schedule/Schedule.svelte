@@ -1,7 +1,10 @@
-<script>
-  import Caption from './Caption.svelte';
+<script lang="ts">
   import minicursosIcon from '$lib/img/minicursos.svg';
   import palestrasIcon from '$lib/img/palestras.svg';
+  import Caption from './Caption.svelte';
+
+  import ScheduleData from './ScheduleData';
+  import ScheduleTableRow from './ScheduleTableRow.svelte';
 </script>
 
 <div class="container schedule-container">
@@ -18,66 +21,10 @@
           <th>Sexta</th>
         </tr>
       </thead>
-      <tbody id="schedule-table">
-        <tr>
-          <td>
-            <div>
-              <img
-                src={minicursosIcon}
-                alt="Minicursos"
-                loading="lazy"
-                class="table-icon" />
-              15:00
-            </div>
-          </td>
-          <td>Minicurso<br />Introdução à coisas estranhas</td>
-          <td>Minicurso<br />Introdução à coisas estranhas</td>
-          <td>Minicurso<br />Introdução à coisas estranhas</td>
-          <td>Minicurso<br />Introdução à coisas estranhas</td>
-          <td>Minicurso<br />Introdução à coisas estranhas</td>
-        </tr>
-        <tr>
-          <td>
-            <div>
-              <img
-                src={minicursosIcon}
-                alt="Minicursos"
-                loading="lazy"
-                class="table-icon" />
-              16:00
-            </div>
-          </td>
-          <td>Cell 4</td>
-          <td>Cell 4</td>
-          <td>Cell 4</td>
-          <td>Cell 4</td>
-          <td>Cell 4</td>
-        </tr>
-        <tr id="break1" class="table-break">
-          <td />
-          <td />
-          <td />
-          <td />
-          <td />
-          <td />
-        </tr>
-        <tr>
-          <td>
-            <div>
-              <img
-                src={palestrasIcon}
-                alt="Palestras"
-                loading="lazy"
-                class="table-icon" />
-              <span>18:00</span>
-            </div>
-          </td>
-          <td>Cell 4</td>
-          <td>Cell 4</td>
-          <td>Cell 4</td>
-          <td>Cell 4</td>
-          <td>Cell 4</td>
-        </tr>
+      <tbody>
+        {#each ScheduleData as schedule}
+          <ScheduleTableRow {schedule} />
+        {/each}
       </tbody>
     </table>
   </div>
@@ -85,44 +32,7 @@
 </div>
 
 <style lang="scss">
-  tbody tr td div {
-    @media (min-width: 574px) {
-      display: flex;
-      img {
-        margin-right: 0.75rem;
-      }
-    }
-
-    @media (max-width: 574px) {
-      display: grid;
-    }
-  }
-
-  :is(th, td):first-child {
-    position: sticky;
-    background-color: #000;
-    left: 0px;
-
-    /*
-      Buscando solução para esta gambiarra
-      Na tela de celular o layout da tabela fica
-      "vazando" o conteúdo pra esquerda
-    */
-    @media (max-width: 574px) {
-      left: -1px;
-    }
-  }
-
-  tr.table-break > td {
-    padding-top: 0px;
-    padding-bottom: 1px;
-    background: #dfdfdf;
-  }
-
-  #schedule-table > tr > td:not(:first-child) {
-    min-width: 200px;
-    color: #fefedf;
-  }
+  @use './styles';
 
   .schedule-container {
     @media (min-width: 576px) {
@@ -139,10 +49,8 @@
     padding-bottom: 0px;
   }
 
-  .table-icon {
-    filter: invert(100%) sepia(64%) saturate(532%) hue-rotate(353deg)
-      brightness(109%) contrast(99%);
-    float: right;
-    width: 24px;
+  th:first-child {
+    @include styles.cell-first-child();
+    background: linear-gradient(45deg, black, 60%, transparent);
   }
 </style>
