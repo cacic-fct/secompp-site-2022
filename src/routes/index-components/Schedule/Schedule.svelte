@@ -1,6 +1,4 @@
 <script lang="ts">
-  import minicursosIcon from '$lib/img/minicursos.svg';
-  import palestrasIcon from '$lib/img/palestras.svg';
   import Caption from './Caption.svelte';
 
   import ScheduleData from './ScheduleData';
@@ -11,9 +9,9 @@
   <h1>Programação</h1>
   <div class="table-responsive" style="--bs-secondary-rgb: 255, 255, 255">
     <table class="table">
-      <thead style="color: #fefedf">
+      <thead>
         <tr>
-          <th />
+          <th class="bw-0" />
           <th>Segunda</th>
           <th>Terça</th>
           <th>Quarta</th>
@@ -32,7 +30,7 @@
 </div>
 
 <style lang="scss">
-  @use './styles';
+  @use './styles' as *;
 
   .schedule-container {
     @media (min-width: 576px) {
@@ -49,8 +47,21 @@
     padding-bottom: 0px;
   }
 
-  th:first-child {
-    @include styles.cell-first-child();
-    background: linear-gradient(45deg, black, 60%, transparent);
+  th {
+    &:first-child {
+      @include cell-first-child();
+      background: linear-gradient(
+        45deg,
+        rgba(0, 0, 0, 0.6),
+        45%,
+        rgba(0, 0, 0, 0)
+      );
+    }
+    border: 0;
+  }
+
+  table {
+    border-collapse: separate;
+    border-spacing: 8px;
   }
 </style>

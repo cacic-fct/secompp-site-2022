@@ -27,9 +27,9 @@ function createEvent(
    * duração em minutos
    */
   duration = 30,
-  ministers: EventMinister[] = [],
+  fullDescription = '',
   shortDescription = '',
-  fullDescription = ''
+  ministers: EventMinister[] = []
 ): ScheduleEvent {
   return {
     place,
@@ -45,34 +45,43 @@ function createEvent(
 
 const ScheduleData: ScheduleEventList = [
   createEvent(
-    'Minicurso - coisas estranhas',
+    'Bagulhos Sinistros',
     'Laboratório 10B',
     0,
-    new Date('2022-10-10T14:00')
+    new Date('2022-10-10T14:00'),
+    30,
+    'Minicurso destinado a ensinar sobre tecnologias das\
+ profundezas da esquisitice como JavaScript',
+    'Tecnologias sinistras e sem sentido'
   ),
   createEvent(
-    'Minicurso - Introdução à POO',
+    'Introdução à POO',
     'Anfiteatro 1',
     0,
     new Date('2022-10-10T16:00'),
-    60
+    60,
+    'Minicurso destinado ao ensino das bases da programação orientada a objetos,\
+ paradigma de muitas linguagens como Java, C++, C#, etc.',
+    'Bases da Programação Orientada a Objeto'
   ),
   createEvent(
-    'Palestra - Inteligência Artificial',
+    'Inteligência Artificial',
     'Auditório',
     1,
     new Date('2022-10-12T18:00'),
-    60
+    60,
+    'Palestra explicativa sobre inteligência artificial, suas origens e áreas de aplicação',
+    'Inteligência artificial, Machine Learning e Redes Neurais'
   ),
   createEvent(
-    'Palestra - Arquitetura de Computadores',
+    'Arquitetura de Computadores',
     'Auditório',
     1,
     new Date('2022-10-13T18:00'),
     60
   ),
   createEvent(
-    'Minicurso - Desenvolvimento Web',
+    'Desenvolvimento Web',
     'Laboratório 6B',
     0,
     new Date('2022-10-14T16:00'),
