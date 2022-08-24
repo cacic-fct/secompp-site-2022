@@ -28,6 +28,7 @@
     "prettier": "^2.7.1",
     "prettier-plugin-svelte": "^2.7.0",
     "sass": "^1.54.5",
+    "svelte-bootstrap-icons": "^2.2.0",
     "sveltestrap": "github:laxadev/sveltestrap"
   }
 }

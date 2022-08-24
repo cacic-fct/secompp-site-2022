@@ -13,23 +13,18 @@
   } from 'sveltestrap';
 
   let isOpen = false;
-
-  function handleUpdate(event: any) {
-    isOpen = event.detail.isOpen;
-  }
 </script>
 
 <Navbar color="dark" container dark expand="md" class="sticky-top">
   <NavbarBrand href="#">
-    <div style="height: 32px; width: 150px">
-      <img src={logo} style="width: 150px" alt="Logo da SECOMPP 2022" />
-    </div></NavbarBrand>
+    <img src={logo} class="py-1" width="150" alt="Logo da SECOMPP 2022" />
+  </NavbarBrand>
   <NavbarToggler
     aria-label="Botão do menu"
-    style="border-style: none;"
+    class="border border-0"
     on:click={() => (isOpen = !isOpen)} />
 
-  <Collapse {isOpen} navbar expand="md" on:update={handleUpdate}>
+  <Collapse {isOpen} navbar expand="md">
     <Nav class="ms-auto" navbar>
       <NavItem>
         <NavLink href="#sobre">Sobre</NavLink>
@@ -48,9 +43,18 @@
       </NavItem>
 
       <NavItem>
-        <!-- TODO: Remover margin-left no menu colapsado-->
-        <Button style="margin-left: 8px;" outline>Inscrever-se</Button>
+        <Button outline class="nav-subscribe-btn" href="https://fct-pp.web.app">
+          Inscrever-se
+        </Button>
       </NavItem>
     </Nav>
   </Collapse>
 </Navbar>
+
+<style lang="scss">
+  :global(.nav-subscribe-btn) {
+    @media (min-width: 768px) {
+      margin-left: 8px;
+    }
+  }
+</style>

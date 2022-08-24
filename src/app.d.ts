@@ -1,5 +1,8 @@
 // See https://kit.svelte.dev/docs/types#app
 // for information about these interfaces
+
+import type { Handle } from '@sveltejs/kit';
+
 // and what to do when importing types
 declare namespace App {
   // interface Locals {}
@@ -9,3 +12,5 @@ declare namespace App {
   // interface Session {}
   // interface Stuff {}
 }
+
+type HandleInput = Parameters<Handle>[0];

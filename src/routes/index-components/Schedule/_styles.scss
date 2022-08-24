@@ -1,0 +1,15 @@
+@forward '../../../lib/styles/variables';
+
+@mixin cell-first-child {
+  position: sticky;
+  left: 0px;
+
+  /*
+  Buscando solução para esta gambiarra
+  Na tela de celular o layout da tabela fica
+  "vazando" o conteúdo pra esquerda
+  */
+  @media (max-width: 574px) {
+    left: -1px;
+  }
+}
