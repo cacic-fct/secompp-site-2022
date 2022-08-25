@@ -1,0 +1,16 @@
+<script lang="ts">
+  import type { EventMinister } from '$lib/shared/EventMinister';
+  import EventMinisterInfo from './EventMinisterInfo.svelte';
+
+  export let ministers: EventMinister[];
+</script>
+
+{#if ministers.length !== 0}
+  <br />
+  <br />
+  <div id="ministers" class="d-inline-flex">
+    {#each ministers as minister (minister.name)}
+      <EventMinisterInfo {minister} />
+    {/each}
+  </div>
+{/if}

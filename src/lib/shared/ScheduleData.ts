@@ -11,7 +11,14 @@ const ScheduleData: ScheduleEventList = [
     'Minicurso destinado a ensinar sobre tecnologias das\
  profundezas da esquisitice como JavaScript',
     'Tecnologias sinistras e sem sentido',
-    [{ name: 'Igor', description: 'Viciado em ECMAScript' }]
+    [
+      {
+        name: 'Igor',
+        description: 'Cara estranho viciado em ECMAScript',
+        link: { path: 'https://github.com/Igor-MPereira', label: 'GitHub' },
+        email: 'igor@gargantas.org',
+      },
+    ]
   ),
   createEvent(
     'Introdução à POO',
@@ -39,14 +46,19 @@ const ScheduleData: ScheduleEventList = [
     'Auditório',
     1,
     new Date('2022-10-13T18:00'),
-    60
+    60,
+    '',
+    '',
+    [{ name: 'Vinícius', link: { path: 'https://github.com/ViniCastilho' } }]
   ),
   createEvent(
     'Desenvolvimento Web',
     'Laboratório 6B',
     0,
     new Date('2022-10-14T16:00'),
-    60
+    60,
+    'Aprendendo sobre estrutura de uma página web e programação básica em JavaScript',
+    'Introdução à Desenvolvimento Web'
   ),
 ];
 

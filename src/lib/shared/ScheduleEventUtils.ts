@@ -75,7 +75,6 @@ function findSameStartTimeRow(schedule: ScheduleEventGrid, ev: ScheduleEvent) {
 }
 
 export function createScheduleGrid(schedule: ScheduleEventList) {
-  console.log('aaa');
   const scheduleGrid: ScheduleEventGrid = [];
 
   schedule.forEach(event => {

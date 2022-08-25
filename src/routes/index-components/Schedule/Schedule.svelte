@@ -45,7 +45,7 @@
   </div>
   <Caption />
   {#if event}
-    <EventModal {event} {isOpen} {toggle} />
+    <EventModal {event} isModalOpen={isOpen} toggleModal={toggle} />
   {/if}
 </div>
 

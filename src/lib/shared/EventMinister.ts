@@ -1,10 +1,11 @@
+export type EventMinisterUrl = { path: string; label?: string };
 export type EventMinister = {
   name: string;
   description?: string;
-  url?: string;
-  image?: string;
+  link?: EventMinisterUrl;
+  email?: string;
 };
 
 export function ministerHasDetailInfo(minister: EventMinister) {
-  return !!minister.description || !!minister.image || !!minister.url;
+  return !!minister.description || !!minister.link;
 }
