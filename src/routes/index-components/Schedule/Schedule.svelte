@@ -1,15 +1,16 @@
 <script lang="ts">
-  import { Modal, ModalBody, ModalHeader } from 'sveltestrap';
+  import ScheduleData from '$lib/shared/ScheduleData';
+
+  import type {
+    ScheduleEvent,
+    ScheduleEventClickHandler,
+  } from '$lib/shared/ScheduleEvent';
+  import { createScheduleGrid } from '$lib/shared/ScheduleEventUtils';
+
+  const ScheduleGrid = createScheduleGrid(ScheduleData);
 
   import Caption from './Caption.svelte';
   import EventModal from './EventModal.svelte';
-
-  import ScheduleData, {
-    getEventEnd,
-    getEventStart,
-    type ScheduleEvent,
-    type ScheduleEventClickHandler,
-  } from './ScheduleData';
   import ScheduleTableRow from './ScheduleTableRow.svelte';
 
   let isOpen = false;
@@ -36,7 +37,7 @@
         </tr>
       </thead>
       <tbody>
-        {#each ScheduleData as schedule}
+        {#each ScheduleGrid as schedule}
           <ScheduleTableRow {onClickEvent} {schedule} />
         {/each}
       </tbody>

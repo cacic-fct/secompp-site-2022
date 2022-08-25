@@ -1,11 +1,8 @@
 <script lang="ts">
-  import { Modal, ModalBody, ModalHeader } from 'sveltestrap';
+  import type { ScheduleEvent } from '$lib/shared/ScheduleEvent';
+  import { getEventEnd, getEventStart } from '$lib/shared/ScheduleEventUtils';
 
-  import {
-    getEventEnd,
-    getEventStart,
-    type ScheduleEvent,
-  } from './ScheduleData';
+  import { Collapse, Modal, ModalBody, ModalHeader } from 'sveltestrap';
 
   export let isOpen: boolean;
   export let toggle: () => void;
@@ -39,7 +36,10 @@
       <div id="ministers" class="d-inline-flex">
         <span class="modal-prop">Ministrando:</span>
         {#each event.ministers as minister}
-          <div class="py-2 px-4 shadow mx-1 rounded">{minister.name}</div>
+          <div class="py-2 px-4 shadow mx-1 rounded">
+            <span class="fw-bold">{minister.name}</span>
+            <Collapse />
+          </div>
         {/each}
       </div>
     {/if}
@@ -64,9 +64,12 @@
     div {
       background: rgb(38, 39, 41);
       transition: 0.3s;
-      &:hover {
+      border: 1px solid transparent;
+      &:hover,
+      &:focus {
         background: rgb(47, 49, 51);
         color: styles.$primary-color;
+        border-color: styles.$primary-color;
         cursor: pointer;
       }
     }
