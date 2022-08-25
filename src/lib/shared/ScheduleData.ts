@@ -29,7 +29,12 @@ const ScheduleData: ScheduleEventList = [
     'Minicurso destinado ao ensino das bases da programação orientada a objetos,\
  paradigma de muitas linguagens como Java, C++, C#, etc.',
     'Bases da Programação Orientada a Objeto',
-    [{ name: 'Renan' }]
+    [
+      {
+        name: 'Renan',
+        link: { path: 'https://github.com/Yudi', label: 'Yudi - GitHub' },
+      },
+    ]
   ),
   createEvent(
     'Inteligência Artificial',
