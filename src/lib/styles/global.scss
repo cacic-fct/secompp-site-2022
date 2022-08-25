@@ -57,6 +57,10 @@ $background-color: var.$background-color;
     opacity: 0.5;
     background-color: rgba(0, 0, 0, 0);
   }
+
+  &:focus-visible {
+    background-color: rgba(0, 0, 0, 0);
+  }
 }
 
 .navbar-dark {
@@ -86,7 +90,6 @@ section:before {
 .modal-content {
   --bs-modal-bg: rgb(29, 30, 31);
   --bs-modal-color: $body-color;
-  // --bs-modal-header-border-color: #fdbd00;
 }
 
 .modal-title {

@@ -87,11 +87,11 @@
 
 <style lang="scss">
   #contact-mail {
-    padding-right: 0.75rem;
+    margin-right: 0.75rem;
   }
 
   #contact-phone {
-    padding-left: 0.75rem;
+    margin-left: 0.75rem;
   }
 
   .footer-row > .col-md-4 {
