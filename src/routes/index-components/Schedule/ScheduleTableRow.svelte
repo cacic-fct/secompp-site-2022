@@ -62,7 +62,7 @@
     outline: 0 solid transparent;
 
     &:first-child {
-      @include styles.cell-first-child();
+      @include styles.styles.cell-first-child();
       background-color: #000;
       border-width: 1px;
       border-left-width: 0;
@@ -89,7 +89,7 @@
 
     &:not(:first-child) {
       min-width: 200px;
-      color: styles.$body-color;
+      color: styles.styles.$body-color;
     }
 
     &[aria-disabled] {
