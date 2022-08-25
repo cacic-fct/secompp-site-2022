@@ -71,6 +71,10 @@
   }
 
   .minister-info {
+    @media (max-width: 573px) {
+      margin-bottom: $sp-2;
+    }
+
     span {
       margin: $sp-1 0;
       @include transition();

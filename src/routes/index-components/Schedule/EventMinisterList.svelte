@@ -8,9 +8,17 @@
 {#if ministers.length !== 0}
   <br />
   <br />
-  <div id="ministers" class="d-inline-flex">
+  <div id="ministers">
     {#each ministers as minister (minister.name)}
       <EventMinisterInfo {minister} />
     {/each}
   </div>
 {/if}
+
+<style lang="scss">
+  #ministers {
+    @media (min-width: 574px) {
+      display: inline-flex;
+    }
+  }
+</style>

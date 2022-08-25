@@ -18,6 +18,7 @@ const ScheduleData: ScheduleEventList = [
         link: { path: 'https://github.com/Igor-MPereira', label: 'GitHub' },
         email: 'igor@gargantas.org',
       },
+      { name: 'Vinicies', description: 'aaaaaaaaaaaaaaaaaaaa' },
     ]
   ),
   createEvent(
