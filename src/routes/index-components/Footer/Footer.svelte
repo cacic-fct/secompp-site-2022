@@ -22,17 +22,10 @@
             src={logoCacic}
             alt="Centro Acadêmico de Ciência da Computação"
             marginBottom />
-          <ImgLink
-            marginX
-            href="https://www.ejcomp.com.br/"
-            src={logoEjcomp}
-            alt="Empresa Júnior da Computação" />
+          <ImgLink marginX href="https://www.ejcomp.com.br/" src={logoEjcomp} alt="Empresa Júnior da Computação" />
 
           <br />
-          <ImgLink
-            href="https://www.fct.unesp.br"
-            src={logoUnesp}
-            alt="Unesp" />
+          <ImgLink href="https://www.fct.unesp.br" src={logoUnesp} alt="Unesp" />
           <ImgLink
             href="https://www.fct.unesp.br/#!/departamentos/matematica-e-computacao/"
             size="sm"
@@ -60,6 +53,7 @@
           </span>
           <br />
           <a
+            class="contact-button"
             id="contact-mail"
             aria-label="email de contato cacic"
             href="mailto:cacic.fct@gmail.com?subject=Contato SECOMPP22">
@@ -70,6 +64,7 @@
               height="24" />
           </a>
           <a
+            class="contact-button"
             id="contact-phone"
             href="tel:1832295600"
             aria-label="telefone de contato cacic">
@@ -86,6 +81,17 @@
 </footer>
 
 <style lang="scss">
+  @mixin transition {
+    transition: 0.3s;
+  }
+
+  .contact-button {
+    @include transition();
+    &:hover {
+      opacity: 0.75;
+    }
+  }
+
   #contact-mail {
     margin-right: 0.75rem;
   }
