@@ -94,13 +94,21 @@ section:before {
 
 .modal-title {
   color: #fdbd00;
+  padding-left: 12px;
+}
+
+.modal-header {
+  border-bottom: none;
+}
+
+.modal-body {
+  padding-bottom: 24px;
 }
 
 .modal-header .btn-close {
   filter: invert(100%);
   opacity: 1;
   &:hover {
-    filter: invert(72%) sepia(98%) saturate(1599%) hue-rotate(359deg)
-      brightness(101%) contrast(103%);
+    opacity: 0.75;
   }
 }

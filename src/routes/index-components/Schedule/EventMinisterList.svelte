@@ -7,7 +7,6 @@
 
 {#if ministers.length !== 0}
   <br />
-  <br />
   <div id="ministers">
     {#each ministers as minister (minister.name)}
       <EventMinisterInfo {minister} />

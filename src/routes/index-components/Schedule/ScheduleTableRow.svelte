@@ -64,10 +64,7 @@
     &:first-child {
       @include styles.cell-first-child();
       background-color: #000;
-      border-width: 1px;
-      border-left-width: 0;
-      border-top-right-radius: styles.$border-radius;
-      border-bottom-right-radius: styles.$border-radius;
+      outline: 5px solid #000;
 
       div {
         @media (min-width: 574px) {

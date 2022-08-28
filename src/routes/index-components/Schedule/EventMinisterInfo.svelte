@@ -1,8 +1,5 @@
 <script lang="ts">
-  import {
-    ministerHasDetailInfo,
-    type EventMinister,
-  } from '$lib/shared/EventMinister';
+  import { ministerHasDetailInfo, type EventMinister } from '$lib/shared/EventMinister';
   import { Envelope, Link45deg } from 'svelte-bootstrap-icons';
 
   export let minister: EventMinister;
@@ -16,17 +13,12 @@
     {/if}
     {#if minister.link}
       <a class="minister-url smaller" href={minister.link.path} target="_blank">
-        <Link45deg width="22" height="22" color="white" />
-        {minister.link.label ?? minister.link.path}
+        <Link45deg width="22" height="22" color="white" />{minister.link.label ?? minister.link.path}
       </a>
     {/if}
     {#if minister.email}
-      <a
-        class="minister-email smaller"
-        href="mailto:{minister.email}"
-        target="_blank">
-        <Envelope color="white" />
-        {minister.email ?? minister.email}
+      <a class="minister-email smaller" href="mailto:{minister.email}" target="_blank">
+        <Envelope color="white" />{minister.email ?? minister.email}
       </a>
     {/if}
   {/if}
@@ -75,6 +67,10 @@
       margin-bottom: $sp-2;
     }
 
+    h6 {
+      margin-top: 0;
+    }
+
     span {
       margin: $sp-1 0;
       @include transition();
@@ -82,20 +78,13 @@
 
     &:hover,
     &:focus {
-      cursor: pointer;
-      transform: scale(1.05);
       background: rgb(47, 49, 51);
       border-color: $primary-color;
 
       h6 {
         &:first-child {
           color: $primary-color;
-          margin: $sp-2 0;
         }
-      }
-
-      span {
-        margin: $sp-2 0;
       }
     }
 

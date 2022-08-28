@@ -14,7 +14,7 @@
     <span class="fw-bold">{event.eventName}</span>
     {#if event.shortDescription}
       <br />
-      <span class="smaller lh-sm">
+      <span class="smaller">
         {event.shortDescription}
       </span>
     {/if}
@@ -45,7 +45,7 @@
       padding: 8px;
       border-radius: $border-radius;
       transition: $transition-duration;
-      box-shadow: 0 0.125rem 0.25rem hsla(0, 3%, 60%, 0.336) !important;
+      outline: 1px solid hsla(0, 3%, 60%, 0.336);
 
       &:hover,
       &:focus {
