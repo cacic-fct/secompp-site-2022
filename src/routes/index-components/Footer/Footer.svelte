@@ -52,20 +52,22 @@
             19060-900
           </span>
           <br />
-          <a
-            class="contact-button"
-            id="contact-mail"
-            aria-label="Entrar em contato por e-mail"
-            href="mailto:cacic.fct@gmail.com?subject=Contato SECOMPP22">
-            <Envelope color="white" width="24" height="24" />
-          </a>
-          <a
-            class="contact-button"
-            id="contact-phone"
-            href="tel:1832295600"
-            aria-label="Entrar em contato por telefone">
-            <Telephone color="white" width="24" height="24" />
-          </a>
+          <div class="mt-2">
+            <a
+              class="contact-button"
+              id="contact-mail"
+              aria-label="Entrar em contato por e-mail"
+              href="mailto:cacic.fct@gmail.com?subject=Contato SECOMPP22">
+              <Envelope color="white" width="24" height="24" />
+            </a>
+            <a
+              class="contact-button"
+              id="contact-phone"
+              href="tel:1832295600"
+              aria-label="Entrar em contato por telefone">
+              <Telephone color="white" width="24" height="24" />
+            </a>
+          </div>
         </address>
       </div>
     </div>
