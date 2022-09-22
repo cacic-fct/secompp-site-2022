@@ -41,11 +41,11 @@
     </AccordionItem>
     <AccordionItem header="Há algum tipo de evento livre para participação?">
       Sim, todas as palestras são abertas ao público. No entanto, os certificados só serão gerados aos participantes
-      pagantes. Além das palestras, haverá uma mesa redonda.
+      pagantes.
     </AccordionItem>
-    <AccordionItem header="Haverá pausa para o café (coffee break)?">
+    <AccordionItem header="Haverá pausa para o café?">
       <!-- TODO: Preencher horário-->
-      Não, não haverá <i>coffee break</i> durante os intervalos dos minicursos.
+      Sim, haverá uma pausa durante os intervalos dos minicursos.
     </AccordionItem>
     <AccordionItem header="Haverá intervalo para o almoço?">
       <!-- TODO: Preencher horário-->
