@@ -58,7 +58,7 @@
 
   h6 {
     height: fit-content;
-    margin: $sp-1 0;
+    margin: 0;
     @include transition();
   }
 
