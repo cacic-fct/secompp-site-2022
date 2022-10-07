@@ -1,5 +1,5 @@
 <script lang="ts">
-  import ScheduleData from '$lib/shared/ScheduleData';
+  import ScheduleData from '$lib/shared/ScheduleData8B';
 
   import type {
     ScheduleEvent,
@@ -23,7 +23,7 @@
 </script>
 
 <div class="container schedule-container">
-  <h1>Programação</h1>
+  <h1>Programação do laboratório 8B</h1>
   <div class="table-responsive" style="--bs-secondary-rgb: 255, 255, 255">
     <table class="table">
       <thead>

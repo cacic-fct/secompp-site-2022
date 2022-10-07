@@ -6,7 +6,9 @@
   import Header from './index-components/header.svelte';
   import Info from './index-components/info.svelte';
   import Nav from './index-components/nav.svelte';
-  import Schedule from './index-components/Schedule/Schedule.svelte';
+  import Schedule5B from './index-components/Schedule/Schedule5B.svelte';
+  import Schedule6B from './index-components/Schedule/Schedule6B.svelte';
+  import Schedule8B from './index-components/Schedule/Schedule8B.svelte';
 </script>
 
 <Nav />
@@ -16,7 +18,9 @@
   <About />
 </section>
 <section id="programacao">
-  <Schedule />
+  <Schedule5B />
+  <Schedule6B/>
+  <Schedule8B/>
 </section>
 <section id="informacoes">
   <Info />
