@@ -3,8 +3,29 @@ import { createEvent } from './ScheduleEventUtils';
 
 const ScheduleData: ScheduleEventList = [
   createEvent(
+    'Boas práticas de desenvolvimeto',
+    'Laboratório central 6B',
+    0,
+    new Date('2022-10-17T08:00'),
+    240,
+    'Introduzir o aluno à sintaxe da Linguagem de Programação Python e suas bibliotecas principais para análise de dados, Pandas e Matplotlib, além do ambiente Jupyter Notebook',
+    'Introdução à linguagem de programação Python',
+    [
+      {
+        name: 'Guilherme Eduardo Silva Batalhoti',
+        description: ' ',
+        email: 'guilherme.batalhoti@unesp.br',
+      },
+      {
+        name: 'Lucas Vinícius Voltera',
+        description: ' ',
+        email: 'lucas.voltera@unesp.br',
+      },
+    ]
+  ),
+  createEvent(
     'Introdução à Linguagem Python para Análise de Dados',
-    'Lahboratório central 6B',
+    'Laboratório central 6B',
     0,
     new Date('2022-10-18T08:00'),
     120,
@@ -64,7 +85,7 @@ const ScheduleData: ScheduleEventList = [
     'Testes automatizados de software: vantagens, desafios e técnicas de escrita',
     'Laboratório central 6B',
     0,
-    new Date('1970-01-01T00:00'),
+    new Date('2022-10-21T08:00'),
     60,
     'Este minicurso irá apresentar os principais conceitos e práticas ' +
       'sobre a escrita de testes automatizados de software, abordando ' +
@@ -83,6 +104,29 @@ const ScheduleData: ScheduleEventList = [
     'Laboratório central 6B',
     0,
     new Date('2022-10-17T14:00'),
+    60,
+    'Este minicurso irá apresentar os principais conceitos e práticas ' +
+      'sobre a escrita de testes automatizados de software, abordando ' +
+      'suas vantagens e desafios.',
+    'Abordagem da prática de testes automatizados de software..',
+    [
+      {
+        name: 'João Vitor Couto Oliveira',
+        description: ' ',
+        email: 'joao.couto@unesp.br',
+      },
+      {
+        name: 'Rafael Nogueira Correia',
+        description: ' ',
+        email: 'rafael.n.correia@unesp.br',
+      },
+    ]
+  ),
+  createEvent(
+    'Desenvolvimento fullstack web com ReactJs e Express',
+    'Laboratório central 6B',
+    0,
+    new Date('2022-10-21T14:00'),
     60,
     'Este minicurso irá apresentar os principais conceitos e práticas ' +
       'sobre a escrita de testes automatizados de software, abordando ' +
