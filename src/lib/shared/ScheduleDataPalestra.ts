@@ -56,29 +56,20 @@ const ScheduleData: ScheduleEventList = [
       },
     ]
   ),
-  createEvent(
-    'Mesa redonda',
-    'Anfiteatro 1',
-    1,
-    new Date('2022-10-20T20:00'),
-    60,
-    'Esta palestra abordará alguns dos avanços atuais no design e ' +
-      'desenvolvimento de sistemas conversacionais, tanto quanto ' +
-      'resultados recentes da pesquisa de Claudio.',
-    'Abordagem de sistemas conversacionais após uma década de progresso.',
-    [
-      {
-        name: 'Claudio Pinhanez',
-        description:
-          'Pesquisador da IBM Research, vice-diretor do C4AI (Centro de ' +
-          'Pesquisas em Inteligência Artificial), especialista em inteligência ' +
-          'artificial, interação homem-máquina, sistemas conversacionais ' +
-          'e ciência de serviços.',
-        link: { path: 'https://github.com/', label: 'GitHub' },
-        email: '...',
-      },
-    ]
-  ),
+  createEvent('Mesa redonda', 'Anfiteatro 1', 1, new Date('2022-10-20T20:00'), 60, ' ', '  ', [
+    {
+      name: 'Fabio Takaki',
+      description: ' ',
+      // link: { path: 'https://github.com/', label: 'GitHub' },
+      email: '...',
+    },
+    {
+      name: 'Cedryk',
+      description: ' ',
+      // link: { path: 'https://github.com/', label: 'GitHub' },
+      email: '...',
+    },
+  ]),
   // createEvent(
   //   'Confraternização e encerramento',
   //   'Unknown',
