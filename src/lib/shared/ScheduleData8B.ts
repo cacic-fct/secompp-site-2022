@@ -3,112 +3,82 @@ import { createEvent } from './ScheduleEventUtils';
 
 const ScheduleData: ScheduleEventList = [
   createEvent(
-    // DAY ONE RÉSUMÉ
-    'Job interview: como escrever um résumé e apresentar-se para um emprego ' + 'em língua inglesa.',
-    'Unknown',
+    'Introdução ao desenvolvimento mobile com Flutter',
+    'Laboratório central 8B',
     0,
-    new Date('2022-10-18T16:00'),
-    120,
-    'Este minicurso irá ensinar como escrever um resumo curto (résumé) e se preparar para entrevistas em língua inglesa.',
-    'Desenvolvimento de résumé e prática de entrevista.',
-    [
-      {
-        name: 'Paula Tavares Pinto',
-        description: '...',
-        link: { path: 'https://github.com/', label: 'GitHub' },
-        email: 'paula.pinto@unesp.br',
-      },
-      {
-        name: 'Maurício Araújo Dias',
-        description: '...',
-        link: { path: 'https://github.com/', label: 'GitHub' },
-        email: 'ma.dias@unesp.br',
-      },
-    ]
-  ),
-  createEvent(
-    // DAY TWO RÉSUMÉ
-    'Job interview: como escrever um résumé e apresentar-se para um emprego ' + 'em língua inglesa.',
-    'Unknown',
-    0,
-    new Date('2022-10-19T16:00'),
-    120,
-    'Este minicurso irá ensinar como escrever um resumo curto (résumé) e se ' +
-      'preparar para entrevistas em língua inglesa.',
-    'Desenvolvimento de résumé e prática de entrevista.',
-    [
-      {
-        name: 'Paula Tavares Pinto',
-        description: '...',
-        link: { path: 'https://github.com/', label: 'GitHub' },
-        email: 'paula.pinto@unesp.br',
-      },
-      {
-        name: 'Maurício Araújo Dias',
-        description: '...',
-        link: { path: 'https://github.com/', label: 'GitHub' },
-        email: 'ma.dias@unesp.br',
-      },
-    ]
-  ),
-  createEvent(
-    'Introdução ao Rust: a lunguagem perfeita?',
-    'Unknown',
-    0,
-    new Date('1970-01-01T00:00'),
-    60,
-    'Este minicurso apresentará a linguagem Rust, junto com o contexto ' +
-      'de sua utilização e suas principais aplicações no mercado e o ' +
-      'desenvolvimento um projeto.',
-    'Abordagem e desenvolvimento de um projeto em Rust.',
-    [
-      {
-        name: 'Daniel Henrique Serezane Pereira',
-        description: '...',
-        link: { path: 'https://github.com/', label: 'GitHub' },
-        email: 'daniel.serezane@unesp.br',
-      },
-      {
-        name: 'Gustavo Becelli do Nacimento',
-        description: '...',
-        link: { path: 'https://github.com/', label: 'GitHub' },
-        email: 'gustavo.becelli@unesp.br',
-      },
-    ]
-  ),
-  createEvent(
-    'GENERIC-TITLE-AUTOMATED-TESTING',
-    'Unknown',
-    0,
-    new Date('1970-01-01T00:00'),
-    60,
-    'Este minicurso irá apresentar os principais conceitos e práticas ' +
-      'sobre a escrita de testes automatizados de software, abordando ' +
-      'suas vantagens e desafios.',
-    'Abordagem da prática de testes automatizados de software..',
-    [
-      {
-        name: 'Thiago Aires Geraldo de Almeida',
-        description: '...',
-        link: { path: 'https://github.com/', label: 'GitHub' },
-        email: 'thiago.almeida@lambda3.com.br',
-      },
-    ]
-  ),
-  createEvent(
-    'Criando modelo de ML de maneira colaborativa - Uma aplicação com MLflow',
-    'Uknown',
-    0,
-    new Date('2022-10-20T08:00'),
+    new Date('2022-10-17T08:00'),
     240,
-    'Demonstrar o uso colaborativo do MLflow para implantar modelos de ' + 'Machine Learning com Databricks.',
-    'Implantação de modelos de Machine Learning com Databricks.',
+    'Introduzir o desenvolvimento de aplicativos mobile utilizando o framework cross-platform Flutter. Pré-requisitos: conhecimentos em POO; noções básicas de métodos HTTP (GET, POST). Materiais Necessários: Android Studio, XCode (Apenas para Mac), Flutter, Java.',
+    'Desenvolvimento de aplicações mobile',
     [
       {
-        name: 'Téo Calvo',
-        description: '...',
-        link: { path: 'https://github.com/', label: 'GitHub' },
-        email: 'teo.bcalvo@gmail.com',
+        name: 'Murilo Rocha Pereira',
+        description: ' ',
+        // link: { path: 'https://github.com/', label: 'GitHub' },
+        email: 'mr.pereira@unesp.br',
+      },
+    ]
+  ),
+  createEvent(
+    'Introdução ao desenvolvimento mobile com Flutter',
+    'Laboratório central 8B',
+    0,
+    new Date('2022-10-17T14:00'),
+    240,
+    'Introduzir o desenvolvimento de aplicativos mobile utilizando o framework cross-platform Flutter. Pré-requisitos: conhecimentos em POO; noções básicas de métodos HTTP (GET, POST). Materiais Necessários: Android Studio, XCode (Apenas para Mac), Flutter, Java.',
+    'Desenvolvimento de aplicações mobile',
+    [
+      {
+        name: 'Murilo Rocha Pereira',
+        description: ' ',
+        // link: { path: 'https://github.com/', label: 'GitHub' },
+        email: 'mr.pereira@unesp.br',
+      },
+    ]
+  ),
+  createEvent(
+    'Construindo o primeiro portfólio: HTML, CSS e JavaScript básico',
+    'Laboratório central 8B',
+    0,
+    new Date('2022-10-18T14:00'),
+    240,
+    'Introduzir alguns conceitos fundamentais do desenvolvimento web, com foco no frontend, e, desenvolver um portfólio simples, contendo os projetos hospedados no github do mesmo. Pré-requisitos: nenhum. Materiais Necessários: conta no GitHub e um editor de texto de sua preferência, sendo recomendado o Visual Studio Code ou Sublime Text.',
+    'Construção de um site em HTML e CSS básico',
+    [
+      {
+        name: 'Daniel Nunes Monteiro',
+        description: ' ',
+        // link: { path: 'https://github.com/', label: 'GitHub' },
+        email: 'daniel.n.monteiro@unesp.br',
+      },
+      {
+        name: 'Gabriel Augusto Lima Silva',
+        description: ' ',
+        // link: { path: 'https://github.com/', label: 'GitHub' },
+        email: 'gabriel.a.silva@unesp.br',
+      },
+    ]
+  ),
+  createEvent(
+    'Construindo o primeiro portfólio: HTML, CSS e JavaScript básico',
+    'Laboratório central 8B',
+    0,
+    new Date('2022-10-19T14:00'),
+    240,
+    'Introduzir alguns conceitos fundamentais do desenvolvimento web, com foco no frontend, e, desenvolver um portfólio simples, contendo os projetos hospedados no github do mesmo. Pré-requisitos: nenhum. Materiais Necessários: conta no GitHub e um editor de texto de sua preferência, sendo recomendado o Visual Studio Code ou Sublime Text.',
+    'Construção de um site em HTML e CSS básico',
+    [
+      {
+        name: 'Daniel Nunes Monteiro',
+        description: ' ',
+        // link: { path: 'https://github.com/', label: 'GitHub' },
+        email: 'daniel.n.monteiro@unesp.br',
+      },
+      {
+        name: 'Gabriel Augusto Lima Silva',
+        description: ' ',
+        // link: { path: 'https://github.com/', label: 'GitHub' },
+        email: 'gabriel.a.silva@unesp.br',
       },
     ]
   ),
