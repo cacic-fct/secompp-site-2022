@@ -3,7 +3,23 @@ import { createEvent } from './ScheduleEventUtils';
 
 const ScheduleData: ScheduleEventList = [
   createEvent(
-    'Introdução ao Rust: a linguagem perfeita?',
+    'Resumindo e desmistificando Clean Architecture.',
+    'Laboratório central 5B',
+    0,
+    new Date('2022-10-20T08:00'),
+    240,
+    'Apresentar os principais conceitos sobre arquitetura multicamadas e os benefícios de Clean Architecture, como também desmistificar a complexidade da arquitetura proposta por Robert C. Martin. Pré-requisitos: conceitos básicos de lógica e desenvolvimento de software, conceitos de programação orientada a objetos, desejável: conhecimento básico em Java. Materiais necessários: nenhum.',
+    'Programação utilizando Clean Architecture',
+    [
+      {
+        name: 'Bruno Vitorelli Tacca de Oliveira',
+        description: ' ',
+        email: 'bruno.tacca@unesp.br',
+      },
+    ]
+  ),
+  createEvent(
+    'Introdução ao Rust: a linguagem perfeita? - parte 1',
     'Laboratório central 5B',
     0,
     new Date('2022-10-17T14:00'),
@@ -26,7 +42,7 @@ const ScheduleData: ScheduleEventList = [
     ]
   ),
   createEvent(
-    'Do zero ao bootstrap',
+    'Do zero ao bootstrap - parte 1',
     'Laboratório central 5B',
     0,
     new Date('2022-10-18T14:00'),
@@ -49,7 +65,7 @@ const ScheduleData: ScheduleEventList = [
     ]
   ),
   createEvent(
-    'Introdução ao Rust: a linguagem perfeita?',
+    'Introdução ao Rust: a linguagem perfeita? - parte 2',
     'Laboratório central 5B',
     0,
     new Date('2022-10-19T14:00'),
@@ -72,7 +88,7 @@ const ScheduleData: ScheduleEventList = [
     ]
   ),
   createEvent(
-    'Do zero ao bootstrap',
+    'Do zero ao bootstrap - parte 2',
     'Laboratório central 5B',
     0,
     new Date('2022-10-20T14:00'),
@@ -118,8 +134,7 @@ const ScheduleData: ScheduleEventList = [
     ]
   ),
   createEvent(
-    // DAY ONE RÉSUMÉ
-    'Job interview: como escrever um résumé e apresentar-se para um emprego ' + 'em língua inglesa.',
+    'Job interview: como escrever um résumé e apresentar-se para um emprego ' + 'em língua inglesa - parte 1',
     'Laboratório central 5B',
     0,
     new Date('2022-10-18T16:00'),
@@ -142,9 +157,8 @@ const ScheduleData: ScheduleEventList = [
     ]
   ),
   createEvent(
-    // DAY ONE RÉSUMÉ
-    'Job interview: como escrever um résumé e apresentar-se para um emprego ' + 'em língua inglesa.',
-    'Unknown',
+    'Job interview: como escrever um résumé e apresentar-se para um emprego ' + 'em língua inglesa - parte 2',
+    'Laboratório central 5B',
     0,
     new Date('2022-10-20T16:00'),
     120,
@@ -164,6 +178,29 @@ const ScheduleData: ScheduleEventList = [
         email: 'ma.dias@unesp.br',
       },
     ]
+  ),
+  createEvent(
+    'Confraternização e encerramento',
+    'Laboratórios centrais',
+    0,
+    new Date('2022-10-21T16:30'),
+    270,
+    '',
+    ''
+    // [
+    //   {
+    //     name: 'Daniel Nunes Monteiro',
+    //     description: ' ',
+    //     // link: { path: 'https://github.com/', label: 'GitHub' },
+    //     email: 'daniel.n.monteiro@unesp.br',
+    //   },
+    //   {
+    //     name: 'Gabriel Augusto Lima Silva',
+    //     description: ' ',
+    //     // link: { path: 'https://github.com/', label: 'GitHub' },
+    //     email: 'gabriel.a.silva@unesp.br',
+    //   },
+    // ]
   ),
 ];
 

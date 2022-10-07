@@ -3,7 +3,7 @@ import { createEvent } from './ScheduleEventUtils';
 
 const ScheduleData: ScheduleEventList = [
   createEvent(
-    'Introdução ao desenvolvimento mobile com Flutter',
+    'Introdução ao desenvolvimento mobile com Flutter - parte 1',
     'Laboratório central 8B',
     0,
     new Date('2022-10-17T08:00'),
@@ -20,7 +20,7 @@ const ScheduleData: ScheduleEventList = [
     ]
   ),
   createEvent(
-    'Introdução ao desenvolvimento mobile com Flutter',
+    'Introdução ao desenvolvimento mobile com Flutter - parte 2',
     'Laboratório central 8B',
     0,
     new Date('2022-10-17T14:00'),
@@ -37,7 +37,7 @@ const ScheduleData: ScheduleEventList = [
     ]
   ),
   createEvent(
-    'Construindo o primeiro portfólio: HTML, CSS e JavaScript básico',
+    'Construindo o primeiro portfólio: HTML, CSS e JavaScript básico - parte 1',
     'Laboratório central 8B',
     0,
     new Date('2022-10-18T14:00'),
@@ -60,7 +60,7 @@ const ScheduleData: ScheduleEventList = [
     ]
   ),
   createEvent(
-    'Construindo o primeiro portfólio: HTML, CSS e JavaScript básico',
+    'Construindo o primeiro portfólio: HTML, CSS e JavaScript básico - parte 2',
     'Laboratório central 8B',
     0,
     new Date('2022-10-19T14:00'),
@@ -81,6 +81,52 @@ const ScheduleData: ScheduleEventList = [
         email: 'gabriel.a.silva@unesp.br',
       },
     ]
+  ),
+  createEvent(
+    'Guia de sobrevivência do estudante de exatas: as ferramentas que simplificam a matemática do seu dia a dia',
+    'Laboratório central 8B',
+    0,
+    new Date('2022-10-20T14:00'),
+    240,
+    'Apresentar algumas ferramentas que auxiliam no estudo diário da matemática de um curso de graduação em exatas, com o propósito de que o participante tenha conhecimento sobre a existência e certo domínio a respeito das mesmas. Pré-requisitos: noções básicas de fundamentos da Matemática. Materiais necessários: calculadora científica, caso possua.',
+    'Como utilizar ferramentas que ajudam em exatas.',
+    [
+      {
+        name: 'Daniel Nunes Monteiro',
+        description: ' ',
+        // link: { path: 'https://github.com/', label: 'GitHub' },
+        email: 'daniel.n.monteiro@unesp.br',
+      },
+      {
+        name: 'Gabriel Augusto Lima Silva',
+        description: ' ',
+        // link: { path: 'https://github.com/', label: 'GitHub' },
+        email: 'gabriel.a.silva@unesp.br',
+      },
+    ]
+  ),
+  createEvent(
+    'Confraternização e encerramento',
+    'Laboratórios centrais',
+    0,
+    new Date('2022-10-21T16:30'),
+    270,
+    '',
+    ''
+    // [
+    //   {
+    //     name: 'Daniel Nunes Monteiro',
+    //     description: ' ',
+    //     // link: { path: 'https://github.com/', label: 'GitHub' },
+    //     email: 'daniel.n.monteiro@unesp.br',
+    //   },
+    //   {
+    //     name: 'Gabriel Augusto Lima Silva',
+    //     description: ' ',
+    //     // link: { path: 'https://github.com/', label: 'GitHub' },
+    //     email: 'gabriel.a.silva@unesp.br',
+    //   },
+    // ]
   ),
 ];
 

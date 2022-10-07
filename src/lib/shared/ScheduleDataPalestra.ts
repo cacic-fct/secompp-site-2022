@@ -56,18 +56,20 @@ const ScheduleData: ScheduleEventList = [
       },
     ]
   ),
-  createEvent('Mesa redonda', 'Anfiteatro 1', 1, new Date('2022-10-20T20:00'), 60, ' ', '  ', [
+  createEvent('Mesa redonda', 'Anfiteatro 1', 1, new Date('2022-10-20T20:00'), 60, 'aa ', 'aa  ', [
     {
       name: 'Fabio Takaki',
-      description: ' ',
+      description:
+        'Aluno formado em ciência da computação na FCT Unesp. Um dos fundadores da Rubcube em Presidente Prudente',
       // link: { path: 'https://github.com/', label: 'GitHub' },
-      email: '...',
+      // email: '...',
     },
     {
-      name: 'Cedryk',
-      description: ' ',
+      name: 'Cedryk Augusto dos Santos',
+      description:
+        'Aluno formado em ciência da computação na FCT Unesp. Um dos fundadores da Rubcube em Presidente Prudente',
       // link: { path: 'https://github.com/', label: 'GitHub' },
-      email: '...',
+      // email: '...',
     },
   ]),
   // createEvent(
