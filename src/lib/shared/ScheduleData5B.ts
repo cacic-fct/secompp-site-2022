@@ -8,7 +8,7 @@ const ScheduleData: ScheduleEventList = [
     0,
     new Date('2022-10-17T14:00'),
     240,
-    'Apresentar a linguagem Rust, o contexto na qual é utilizada (principais aplicações no mercado) e o porquê de ser uma solução preferível em detrimento de outras, apoiando-se na criação de um projeto que exemplifique os diferenciais da linguagem. Durante a apresentação da linguagem, será demonstrada sua sintaxe, principais instruções, paradigmas de programação e o restante necessário para a construção do projeto.',
+    'Apresentar a linguagem Rust, o contexto na qual é utilizada (principais aplicações no mercado) e o porquê de ser uma solução preferível em detrimento de outras, apoiando-se na criação de um projeto que exemplifique os diferenciais da linguagem. Durante a apresentação da linguagem, será demonstrada sua sintaxe, principais instruções, paradigmas de programação e o restante necessário para a construção do projeto. Pré-requisitos: Conhecimentos básicos de programação: variáveis, constantes, tipos de dados, laços, desvios condicionais, funções e arranjos. É recomendável (não obrigatório) ter noções de structs, classes e pattern matching. Materiais Necessários: Computador com a linguagem Rust (https://www.rust-lang.org/pt-BR/learn/get-started) instalada. Editor de texto/ambiente de programação, preferencialmente Visual Studio Code.',
     'Introdução a linguagem Rust',
     [
       {
@@ -31,8 +31,8 @@ const ScheduleData: ScheduleEventList = [
     0,
     new Date('2022-10-18T14:00'),
     120,
-    'Este minicurso irá ensinar utilizar o framework Bootstrap',
-    'Este minicurso irá ensinar utilizar o framework Bootstrap',
+    'Este minicurso irá ensinar utilizar o framework CSS Bootstrap. Pré-requisitos: conhecimento básico em HTML e CSS. Materiais Necessários: Visual Studio Code',
+    'Introdução ao Bootstrap',
     [
       {
         name: 'Lucas Gaspar Stumpf',
@@ -54,7 +54,7 @@ const ScheduleData: ScheduleEventList = [
     0,
     new Date('2022-10-19T14:00'),
     240,
-    'Apresentar a linguagem Rust, o contexto na qual é utilizada (principais aplicações no mercado) e o porquê de ser uma solução preferível em detrimento de outras, apoiando-se na criação de um projeto que exemplifique os diferenciais da linguagem. Durante a apresentação da linguagem, será demonstrada sua sintaxe, principais instruções, paradigmas de programação e o restante necessário para a construção do projeto.',
+    'Apresentar a linguagem Rust, o contexto na qual é utilizada (principais aplicações no mercado) e o porquê de ser uma solução preferível em detrimento de outras, apoiando-se na criação de um projeto que exemplifique os diferenciais da linguagem. Durante a apresentação da linguagem, será demonstrada sua sintaxe, principais instruções, paradigmas de programação e o restante necessário para a construção do projeto. Pré-requisitos: Conhecimentos básicos de programação: variáveis, constantes, tipos de dados, laços, desvios condicionais, funções e arranjos. É recomendável (não obrigatório) ter noções de structs, classes e pattern matching. Materiais Necessários: Computador com a linguagem Rust (https://www.rust-lang.org/pt-BR/learn/get-started) instalada. Editor de texto/ambiente de programação, preferencialmente Visual Studio Code.',
     'Introdução a linguagem Rust',
     [
       {
@@ -77,8 +77,8 @@ const ScheduleData: ScheduleEventList = [
     0,
     new Date('2022-10-20T14:00'),
     120,
-    'Este minicurso irá ensinar utilizar o framework Bootstrap',
-    'Este minicurso irá ensinar utilizar o framework Bootstrap',
+    'Este minicurso irá ensinar utilizar o framework CSS Bootstrap. Pré-requisitos: conhecimento básico em HTML e CSS. Materiais Necessários: Visual Studio Code',
+    'Introdução ao Bootstrap',
     [
       {
         name: 'Lucas Gaspar Stumpf',
@@ -100,31 +100,31 @@ const ScheduleData: ScheduleEventList = [
     0,
     new Date('2022-10-21T14:00'),
     150,
-    'Este minicurso irá ensinar como utilizar o GitHub e suas principais funcionalidades',
+    'Introdução ao básico sobre o gitHub e seus recursos. Pré-requisitos: Nenhum. Materiais Necessários: Git instalado na máquina, Visual Studio Code ou outro editor de escolha',
     'Introdução a plataforma GitHub',
     [
       {
-        name: 'Lucas Gaspar Stumpf',
+        name: 'Vinicius Polachini Mayer Freitas De Jesus',
         description: ' ',
         // link: { path: 'https://github.com/', label: 'GitHub' },
-        email: 'lg.stumpf@unesp.br',
+        email: 'vinicius.polachini@unesp.br',
       },
       {
-        name: 'Manoela Moreno Frattini',
+        name: 'Hariã Othon Gomes Silva',
         description: ' ',
         // link: { path: 'https://github.com/', label: 'GitHub' },
-        email: 'manoela.frattini@unesp.br',
+        email: 'haria.othon@unesp.br',
       },
     ]
   ),
   createEvent(
     // DAY ONE RÉSUMÉ
     'Job interview: como escrever um résumé e apresentar-se para um emprego ' + 'em língua inglesa.',
-    'Unknown',
+    'Laboratório central 5B',
     0,
     new Date('2022-10-18T16:00'),
     120,
-    'Este minicurso irá ensinar como escrever um resumo curto (résumé) e se preparar para entrevistas em língua inglesa.',
+    'Este minicurso irá ensinar como escrever um resumo curto (résumé) e se preparar para entrevistas em língua inglesa. Pré-requisito: conhecimento em inglês. Materiais necessários: computador com acesso à internet',
     'Desenvolvimento de résumé e prática de entrevista.',
     [
       {
@@ -148,7 +148,7 @@ const ScheduleData: ScheduleEventList = [
     0,
     new Date('2022-10-20T16:00'),
     120,
-    'Este minicurso irá ensinar como escrever um resumo curto (résumé) e se preparar para entrevistas em língua inglesa.',
+    'Este minicurso irá ensinar como escrever um resumo curto (résumé) e se preparar para entrevistas em língua inglesa. Pré-requisito: conhecimento em inglês. Materiais necessários: computador com acesso à internet',
     'Desenvolvimento de résumé e prática de entrevista.',
     [
       {
