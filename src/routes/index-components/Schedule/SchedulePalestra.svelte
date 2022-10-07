@@ -43,7 +43,7 @@
       </tbody>
     </table>
   </div>
-  <Caption />
+  <!-- <Caption /> -->
   {#if event}
     <EventModal {event} isModalOpen={isOpen} toggleModal={toggle} />
   {/if}
