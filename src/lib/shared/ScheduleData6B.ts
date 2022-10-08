@@ -7,7 +7,7 @@ const ScheduleData: ScheduleEventList = [
     'Laboratório central 6B',
     0,
     new Date('2022-10-18T08:00'),
-    120,
+    240,
     'Introduzir o aluno à sintaxe da Linguagem de Programação Python e suas bibliotecas principais para análise de dados, Pandas e Matplotlib, além do ambiente Jupyter Notebook. Pré-requisitos: lógica de programação. Materiais necessários: computador, Anaconda ou Google Colab e acesso a internet.',
     'Introdução à linguagem de programação Python',
     [
@@ -28,7 +28,7 @@ const ScheduleData: ScheduleEventList = [
     'Laboratório central 6B',
     0,
     new Date('2022-10-19T08:00'),
-    120,
+    240,
     'Introduzir o aluno à sintaxe da Linguagem de Programação Python e suas bibliotecas principais para análise de dados, Pandas e Matplotlib, além do ambiente Jupyter Notebook. Pré-requisitos: lógica de programação. Materiais necessários: computador, Anaconda ou Google Colab e acesso a internet.',
     'Introdução à linguagem de programação Python',
     [
@@ -51,7 +51,7 @@ const ScheduleData: ScheduleEventList = [
     new Date('2022-10-20T08:00'),
     240,
     'Demonstrar o uso colaborativo do MLflow para implantar modelos de ' +
-      'Machine Learning com Databricks. Pré-requisitos: Python, estatística básica, análise de dados. Materiais necessários: acesso a internet, navegador web e conta no GitHub.',
+      'Machine Learning com Databricks. Pré-requisitos: possuir conhecimento sobre Python, estatística básica, análise de dados. Materiais necessários: acesso a internet, navegador web e conta no GitHub.',
     'Implantação de modelos de Machine Learning com Databricks.',
     [
       {
@@ -84,8 +84,8 @@ const ScheduleData: ScheduleEventList = [
     'Laboratório central 6B',
     0,
     new Date('2022-10-17T14:00'),
-    60,
-    'Desenvolver um website básico com back-end em Express e front-end em ReactJs. Pré-requisitos: conhecimento básico de JavaScript. Materiais necessários: computador para o desenvolvimento prático.',
+    240,
+    'Desenvolver um website básico com back-end em Express e front-end em ReactJs. Pré-requisitos: conhecimento básico de JavaScript. Materiais necessários: computador com acesso à internet para o desenvolvimento prático.',
     'Desenvolvimento de um website com a framework React',
     [
       {
@@ -105,8 +105,8 @@ const ScheduleData: ScheduleEventList = [
     'Laboratório central 6B',
     0,
     new Date('2022-10-21T14:00'),
-    60,
-    'Desenvolver um website básico com back-end em Express e front-end em ReactJs. Pré-requisitos: conhecimento básico de JavaScript. Materiais necessários: computador para o desenvolvimento prático.',
+    240,
+    'Desenvolver um website básico com back-end em Express e front-end em ReactJs. Pré-requisitos: conhecimento básico de JavaScript. Materiais necessários: computador com acesso à internet para o desenvolvimento prático.',
     'Desenvolvimento de um website com a framework React',
     [
       {
@@ -126,7 +126,7 @@ const ScheduleData: ScheduleEventList = [
     'Laboratório central 6B',
     0,
     new Date('2022-10-19T14:00'),
-    60,
+    240,
     'Abordagem prática no desenvolvimento de interfaces. Pré-requisitos: conhecimentos básico em HTML5, CSS3 e JavaScript. Materiais necessários: Node LTS e VSCode.',
     'Abordagem prática no desenvolvimento de interfaces',
     [
@@ -147,7 +147,7 @@ const ScheduleData: ScheduleEventList = [
     'Laboratório central 6B',
     0,
     new Date('2022-10-20T14:00'),
-    60,
+    240,
     'Abordagem prática no desenvolvimento de interfaces. Pré-requisitos: conhecimentos básico em HTML5, CSS3 e JavaScript. Materiais necessários: Node LTS e VSCode.',
     'Abordagem prática no desenvolvimento de interfaces',
     [

@@ -56,7 +56,7 @@ const ScheduleData: ScheduleEventList = [
       },
     ]
   ),
-  createEvent('Mesa redonda', 'Anfiteatro 1', 1, new Date('2022-10-20T20:00'), 60, 'aa ', 'aa  ', [
+  createEvent('Mesa redonda', 'Anfiteatro 1', 1, new Date('2022-10-20T20:00'), 90, ' ', ' ', [
     {
       name: 'Fabio Takaki',
       description:

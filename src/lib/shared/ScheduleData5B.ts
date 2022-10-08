@@ -93,7 +93,7 @@ const ScheduleData: ScheduleEventList = [
     0,
     new Date('2022-10-20T14:00'),
     120,
-    'Este minicurso irá ensinar utilizar o framework CSS Bootstrap. Pré-requisitos: conhecimento básico em HTML e CSS. Materiais Necessários: Visual Studio Code',
+    'Este minicurso irá ensinar utilizar o framework CSS Bootstrap. Pré-requisitos: conhecimento básico em HTML e CSS. Materiais Necessários: Visual Studio Code.',
     'Introdução ao Bootstrap',
     [
       {
@@ -116,7 +116,7 @@ const ScheduleData: ScheduleEventList = [
     0,
     new Date('2022-10-21T14:00'),
     150,
-    'Introdução ao básico sobre o gitHub e seus recursos. Pré-requisitos: Nenhum. Materiais Necessários: Git instalado na máquina, Visual Studio Code ou outro editor de escolha',
+    'Introdução ao básico sobre o gitHub e seus recursos. Pré-requisitos: Nenhum. Materiais Necessários: Git instalado na máquina, Visual Studio Code ou outro editor de sua escolha.',
     'Introdução a plataforma GitHub',
     [
       {
@@ -139,7 +139,7 @@ const ScheduleData: ScheduleEventList = [
     0,
     new Date('2022-10-18T16:00'),
     120,
-    'Este minicurso irá ensinar como escrever um resumo curto (résumé) e se preparar para entrevistas em língua inglesa. Pré-requisito: conhecimento em inglês. Materiais necessários: computador com acesso à internet',
+    'Este minicurso irá ensinar como escrever um resumo curto (résumé) e se preparar para entrevistas em língua inglesa. Pré-requisito: conhecimento em inglês. Materiais necessários: computador com acesso à internet.',
     'Desenvolvimento de résumé e prática de entrevista.',
     [
       {
@@ -162,7 +162,7 @@ const ScheduleData: ScheduleEventList = [
     0,
     new Date('2022-10-20T16:00'),
     120,
-    'Este minicurso irá ensinar como escrever um resumo curto (résumé) e se preparar para entrevistas em língua inglesa. Pré-requisito: conhecimento em inglês. Materiais necessários: computador com acesso à internet',
+    'Este minicurso irá ensinar como escrever um resumo curto (résumé) e se preparar para entrevistas em língua inglesa. Pré-requisito: conhecimento em inglês. Materiais necessários: computador com acesso à internet.',
     'Desenvolvimento de résumé e prática de entrevista.',
     [
       {

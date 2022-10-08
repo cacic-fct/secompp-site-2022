@@ -8,7 +8,7 @@ const ScheduleData: ScheduleEventList = [
     0,
     new Date('2022-10-17T08:00'),
     240,
-    'Introduzir o desenvolvimento de aplicativos mobile utilizando o framework cross-platform Flutter. Pré-requisitos: conhecimentos em POO; noções básicas de métodos HTTP (GET, POST). Materiais Necessários: Android Studio, XCode (Apenas para Mac), Flutter, Java.',
+    'Introduzir o desenvolvimento de aplicativos mobile utilizando o framework cross-platform Flutter. Pré-requisitos: conhecimentos em programação orientado a objeto; noções básicas de métodos HTTP (GET, POST). Materiais Necessários: Android Studio, XCode (Apenas para Mac), Flutter, Java.',
     'Desenvolvimento de aplicações mobile',
     [
       {
@@ -25,7 +25,7 @@ const ScheduleData: ScheduleEventList = [
     0,
     new Date('2022-10-17T14:00'),
     240,
-    'Introduzir o desenvolvimento de aplicativos mobile utilizando o framework cross-platform Flutter. Pré-requisitos: conhecimentos em POO; noções básicas de métodos HTTP (GET, POST). Materiais Necessários: Android Studio, XCode (Apenas para Mac), Flutter, Java.',
+    'Introduzir o desenvolvimento de aplicativos mobile utilizando o framework cross-platform Flutter. Pré-requisitos: conhecimentos em programação orientado a objeto; noções básicas de métodos HTTP (GET, POST). Materiais Necessários: Android Studio, XCode (Apenas para Mac), Flutter, Java.',
     'Desenvolvimento de aplicações mobile',
     [
       {
@@ -43,7 +43,7 @@ const ScheduleData: ScheduleEventList = [
     new Date('2022-10-18T14:00'),
     240,
     'Introduzir alguns conceitos fundamentais do desenvolvimento web, com foco no frontend, e, desenvolver um portfólio simples, contendo os projetos hospedados no github do mesmo. Pré-requisitos: nenhum. Materiais Necessários: conta no GitHub e um editor de texto de sua preferência, sendo recomendado o Visual Studio Code ou Sublime Text.',
-    'Construção de um site em HTML e CSS básico',
+    'Construção de um site em HTML e CSS básico.',
     [
       {
         name: 'Daniel Nunes Monteiro',
@@ -66,7 +66,7 @@ const ScheduleData: ScheduleEventList = [
     new Date('2022-10-19T14:00'),
     240,
     'Introduzir alguns conceitos fundamentais do desenvolvimento web, com foco no frontend, e, desenvolver um portfólio simples, contendo os projetos hospedados no github do mesmo. Pré-requisitos: nenhum. Materiais Necessários: conta no GitHub e um editor de texto de sua preferência, sendo recomendado o Visual Studio Code ou Sublime Text.',
-    'Construção de um site em HTML e CSS básico',
+    'Construção de um site em HTML e CSS básico.',
     [
       {
         name: 'Daniel Nunes Monteiro',
