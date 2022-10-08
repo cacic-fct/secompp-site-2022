@@ -35,7 +35,7 @@
             </tr>
             <tr>
               <td>Professores e profissionais</td>
-              <td aria-label="50 reais">R$ 50,00</td>
+              <td aria-label="35 reais">R$ 35,00</td>
             </tr>
           </tbody>
         </table>
