@@ -43,13 +43,16 @@
       Sim, todas as palestras são abertas ao público. No entanto, os certificados só serão gerados aos participantes
       pagantes.
     </AccordionItem>
+    <AccordionItem header="Preciso trazer o notebook para os minicursos?">
+      Recomenda-se trazer (caso possua) o próprio computador para a realização dos minicursos com os programas necessários instalados previamente. Haverá também computadores dos laboratórios com os programas necessários instalados.
+    </AccordionItem>
     <AccordionItem header="Haverá pausa para o café?">
       <!-- TODO: Preencher horário-->
       Sim, haverá uma pausa durante os intervalos dos minicursos.
     </AccordionItem>
     <AccordionItem header="Haverá intervalo para o almoço?">
       <!-- TODO: Preencher horário-->
-      Sim, o intervalo será das 00:00 às 00:00.
+      Sim, o intervalo será das 12:00 às 14:00.
     </AccordionItem>
   </Accordion>
 </div>
