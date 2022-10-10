@@ -56,45 +56,37 @@ const ScheduleData: ScheduleEventList = [
       },
     ]
   ),
-  createEvent('Mesa redonda', 'Anfiteatro 1', 1, new Date('2022-10-20T20:00'), 90, ' ', ' ', [
-    {
-      name: 'Fabio Takaki',
-      description:
-        'Aluno formado em ciência da computação na FCT Unesp. Um dos fundadores da Rubcube em Presidente Prudente',
-      // link: { path: 'https://github.com/', label: 'GitHub' },
-      // email: '...',
-    },
-    {
-      name: 'Cedryk Augusto dos Santos',
-      description:
-        'Aluno formado em ciência da computação na FCT Unesp. Um dos fundadores da Rubcube em Presidente Prudente',
-      // link: { path: 'https://github.com/', label: 'GitHub' },
-      // email: '...',
-    },
-  ]),
-  // createEvent(
-  //   'Confraternização e encerramento',
-  //   'Unknown',
-  //   1,
-  //   new Date('2022-10-21T20:00'),
-  //   60,
-  //   'Esta palestra abordará alguns dos avanços atuais no design e ' +
-  //     'desenvolvimento de sistemas conversacionais, tanto quanto ' +
-  //     'resultados recentes da pesquisa de Claudio.',
-  //   'Abordagem de sistemas conversacionais após uma década de progresso.',
-  //   [
-  //     {
-  //       name: 'Claudio Pinhanez',
-  //       description:
-  //         'Pesquisador da IBM Research, vice-diretor do C4AI (Centro de ' +
-  //         'Pesquisas em Inteligência Artificial), especialista em inteligência ' +
-  //         'artificial, interação homem-máquina, sistemas conversacionais ' +
-  //         'e ciência de serviços.',
-  //       link: { path: 'https://github.com/', label: 'GitHub' },
-  //       email: '...',
-  //     },
-  //   ]
-  // ),
+  createEvent(
+    'Mesa redonda',
+    'Anfiteatro 1',
+    1,
+    new Date('2022-10-20T20:00'),
+    90,
+    'O curso de Ciência da Computação na FCT completa 20 anos desde sua criação. Nossos convidados são egressos que compartilharão suas experiências acadêmicas e de mercado de trabalho, incluindo também o tema das startups.',
+    'Mesa-redonda: Ciência da Computação na FCT - 20 anos: narrativas e experiências',
+    [
+      {
+        name: 'Fabio Takaki',
+        // description:
+        // 'Aluno formado em ciência da computação na FCT Unesp. Um dos fundadores da Rubcube em Presidente Prudente',
+        // link: { path: 'https://github.com/', label: 'GitHub' },
+        // email: '...',
+      },
+      {
+        name: 'Cedryk Augusto dos Santos',
+        // description:
+        // 'Aluno formado em ciência da computação na FCT Unesp. Um dos fundadores da Rubcube em Presidente Prudente',
+        // link: { path: 'https://github.com/', label: 'GitHub' },
+        // email: '...',
+      },
+      {
+        name: 'Giovanna Carreira Marinho',
+        // description: 'Aluna formada em ciência da computação na FCT Unesp.',
+        // link: { path: 'https://github.com/', label: 'GitHub' },
+        // email: '...',
+      },
+    ]
+  ),
 ];
 
 export default ScheduleData;
