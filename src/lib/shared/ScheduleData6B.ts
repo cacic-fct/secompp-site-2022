@@ -13,12 +13,10 @@ const ScheduleData: ScheduleEventList = [
     [
       {
         name: 'Guilherme Eduardo Silva Batalhoti',
-        description: ' ',
         email: 'guilherme.batalhoti@unesp.br',
       },
       {
         name: 'Lucas Vinícius Voltera',
-        description: ' ',
         email: 'lucas.voltera@unesp.br',
       },
     ]
@@ -34,12 +32,10 @@ const ScheduleData: ScheduleEventList = [
     [
       {
         name: 'Guilherme Eduardo Silva Batalhoti',
-        description: ' ',
         email: 'guilherme.batalhoti@unesp.br',
       },
       {
         name: 'Lucas Vinícius Voltera',
-        description: ' ',
         email: 'lucas.voltera@unesp.br',
       },
     ]
@@ -56,7 +52,6 @@ const ScheduleData: ScheduleEventList = [
     [
       {
         name: 'Téo Calvo',
-        description: ' ',
         email: 'teo.bcalvo@gmail.com',
       },
     ]
@@ -74,7 +69,6 @@ const ScheduleData: ScheduleEventList = [
     [
       {
         name: 'Thiago Aires Geraldo de Almeida',
-        description: ' ',
         email: 'thiago.almeida@lambda3.com.br',
       },
     ]
@@ -90,12 +84,10 @@ const ScheduleData: ScheduleEventList = [
     [
       {
         name: 'João Vitor Couto Oliveira',
-        description: ' ',
         email: 'joao.couto@unesp.br',
       },
       {
         name: 'Rafael Nogueira Correia',
-        description: ' ',
         email: 'rafael.n.correia@unesp.br',
       },
     ]
@@ -111,12 +103,10 @@ const ScheduleData: ScheduleEventList = [
     [
       {
         name: 'João Vitor Couto Oliveira',
-        description: ' ',
         email: 'joao.couto@unesp.br',
       },
       {
         name: 'Rafael Nogueira Correia',
-        description: ' ',
         email: 'rafael.n.correia@unesp.br',
       },
     ]
@@ -132,12 +122,10 @@ const ScheduleData: ScheduleEventList = [
     [
       {
         name: 'Gabriel Cecon Carlsen',
-        description: ' ',
         email: 'cecon.carlsen@unesp.br',
       },
       {
         name: 'Guilherme de Aguiar Pacianotto',
-        description: ' ',
         email: 'g.pacianotto@unesp.br',
       },
     ]
@@ -153,12 +141,10 @@ const ScheduleData: ScheduleEventList = [
     [
       {
         name: 'Gabriel Cecon Carlsen',
-        description: ' ',
         email: 'cecon.carlsen@unesp.br',
       },
       {
         name: 'Guilherme de Aguiar Pacianotto',
-        description: ' ',
         email: 'g.pacianotto@unesp.br',
       },
     ]
@@ -168,9 +154,9 @@ const ScheduleData: ScheduleEventList = [
     'Laboratórios centrais',
     0,
     new Date('2022-10-21T16:30'),
-    270,
-    '',
-    ''
+    270
+    // '',
+    // '',
     // [
     //   {
     //     name: 'Daniel Nunes Monteiro',

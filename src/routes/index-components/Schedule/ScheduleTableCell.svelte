@@ -1,8 +1,5 @@
 <script lang="ts">
-  import type {
-    ScheduleEvent,
-    ScheduleEventClickHandler,
-  } from './ScheduleData';
+  import type { ScheduleEvent, ScheduleEventClickHandler } from '$lib/shared/ScheduleEvent';
 
   export let event: ScheduleEvent;
   export let onClickEvent: ScheduleEventClickHandler;
@@ -48,7 +45,7 @@
       outline: 1px solid hsla(0, 3%, 60%, 0.336);
 
       &:hover,
-      &:focus {
+      &:focus-visible {
         background: rgba(52, 58, 64, 0.4);
         outline: 1px solid $primary-color;
         box-shadow: 0 0.125rem 0.25rem rgb(253 189 0 / 45%) !important;
