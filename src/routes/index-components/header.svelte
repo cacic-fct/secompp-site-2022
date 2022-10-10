@@ -18,7 +18,7 @@
       <div class="text-center intro-heading">
         <span class="fs-4 fw-light">Junte-se a nós de 17 a 21 de outubro de 2022</span>
       </div>
-      <Button outline class="my-3" size="lg" href="https://fct-pp.web.app">Inscrever-se</Button>
+      <Button outline class="my-3" size="lg" href="https://fct-pp.web.app/eventos">Inscrever-se</Button>
       <br />
       <br />
       Patrocínio:
