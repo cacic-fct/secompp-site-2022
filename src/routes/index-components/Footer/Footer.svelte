@@ -25,12 +25,18 @@
           <ImgLink
             href="https://cacic-fct.web.app/"
             src={logoCacic}
+            size="md"
             alt="Centro Acadêmico de Ciência da Computação"
             marginBottom />
-          <ImgLink marginX href="https://www.ejcomp.com.br/" src={logoEjcomp} alt="Empresa Júnior da Computação" />
+          <ImgLink
+            marginX
+            href="https://www.ejcomp.com.br/"
+            src={logoEjcomp}
+            size="md"
+            alt="Empresa Júnior da Computação" />
 
           <br />
-          <ImgLink href="https://www.fct.unesp.br" src={logoUnesp} alt="Unesp" />
+          <ImgLink href="https://www.fct.unesp.br" size="md" src={logoUnesp} alt="Unesp" />
           <ImgLink
             href="https://www.fct.unesp.br/#!/departamentos/matematica-e-computacao/"
             size="sm"
