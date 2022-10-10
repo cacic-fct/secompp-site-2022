@@ -44,7 +44,10 @@
       pagantes.
     </AccordionItem>
     <AccordionItem header="Preciso trazer o notebook para os minicursos?">
-      Recomenda-se trazer (caso possua) o próprio computador para a realização dos minicursos com os programas necessários instalados previamente. Haverá também computadores dos laboratórios com os programas necessários instalados.
+      Recomenda-se trazer o próprio computador para a realização dos minicursos. Não se esqueça de instalar, com
+      antecedência, os programas necessários!
+      <br /><br />
+      Caso você não tenha notebook, os computadores dos laboratórios estarão com os programas necessários instalados.
     </AccordionItem>
     <AccordionItem header="Haverá pausa para o café?">
       <!-- TODO: Preencher horário-->
