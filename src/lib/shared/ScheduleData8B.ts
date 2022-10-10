@@ -8,7 +8,7 @@ const ScheduleData: ScheduleEventList = [
     0,
     new Date('2022-10-17T08:00'),
     240,
-    'Introduzir o desenvolvimento de aplicativos mobile utilizando o framework cross-platform Flutter. Pré-requisitos: conhecimentos em programação orientado a objeto; noções básicas de métodos HTTP (GET, POST). Materiais Necessários: Android Studio, XCode (Apenas para Mac), Flutter, Java.',
+    'Introduzir o desenvolvimento de aplicativos mobile utilizando o framework cross-platform Flutter. \n\nPré-requisitos: conhecimentos em programação orientado a objeto; noções básicas de métodos HTTP (GET, POST). \n\nMateriais necessários: Android Studio, XCode (Apenas para Mac), Flutter, Java.',
     'Desenvolvimento de aplicações mobile',
     [
       {
@@ -25,7 +25,7 @@ const ScheduleData: ScheduleEventList = [
     0,
     new Date('2022-10-17T14:00'),
     240,
-    'Introduzir o desenvolvimento de aplicativos mobile utilizando o framework cross-platform Flutter. Pré-requisitos: conhecimentos em programação orientado a objeto; noções básicas de métodos HTTP (GET, POST). Materiais Necessários: Android Studio, XCode (Apenas para Mac), Flutter, Java.',
+    'Introduzir o desenvolvimento de aplicativos mobile utilizando o framework cross-platform Flutter. \n\nPré-requisitos: conhecimentos em programação orientado a objeto; noções básicas de métodos HTTP (GET, POST). \n\nMateriais necessários: Android Studio, XCode (Apenas para Mac), Flutter, Java.',
     'Desenvolvimento de aplicações mobile',
     [
       {
@@ -42,7 +42,7 @@ const ScheduleData: ScheduleEventList = [
     0,
     new Date('2022-10-18T14:00'),
     240,
-    'Introduzir alguns conceitos fundamentais do desenvolvimento web, com foco no frontend, e, desenvolver um portfólio simples, contendo os projetos hospedados no github do mesmo. Pré-requisitos: nenhum. Materiais Necessários: conta no GitHub e um editor de texto de sua preferência, sendo recomendado o Visual Studio Code ou Sublime Text.',
+    'Introduzir alguns conceitos fundamentais do desenvolvimento web, com foco no frontend, e, desenvolver um portfólio simples, contendo os projetos hospedados no github do mesmo. \n\nPré-requisitos: nenhum. \n\nMateriais necessários: conta no GitHub e um editor de texto de sua preferência, sendo recomendado o Visual Studio Code ou Sublime Text.',
     'Construção de um site em HTML e CSS básico.',
     [
       {
@@ -65,7 +65,7 @@ const ScheduleData: ScheduleEventList = [
     0,
     new Date('2022-10-19T14:00'),
     240,
-    'Introduzir alguns conceitos fundamentais do desenvolvimento web, com foco no frontend, e, desenvolver um portfólio simples, contendo os projetos hospedados no github do mesmo. Pré-requisitos: nenhum. Materiais Necessários: conta no GitHub e um editor de texto de sua preferência, sendo recomendado o Visual Studio Code ou Sublime Text.',
+    'Introduzir alguns conceitos fundamentais do desenvolvimento web, com foco no frontend, e, desenvolver um portfólio simples, contendo os projetos hospedados no github do mesmo. \n\nPré-requisitos: nenhum. \n\nMateriais necessários: conta no GitHub e um editor de texto de sua preferência, sendo recomendado o Visual Studio Code ou Sublime Text.',
     'Construção de um site em HTML e CSS básico.',
     [
       {
@@ -88,7 +88,7 @@ const ScheduleData: ScheduleEventList = [
     0,
     new Date('2022-10-20T14:00'),
     240,
-    'Apresentar algumas ferramentas que auxiliam no estudo diário da matemática de um curso de graduação em exatas, com o propósito de que o participante tenha conhecimento sobre a existência e certo domínio a respeito das mesmas. Pré-requisitos: noções básicas de fundamentos da Matemática. Materiais necessários: calculadora científica, caso possua.',
+    'Apresentar algumas ferramentas que auxiliam no estudo diário da matemática de um curso de graduação em exatas, com o propósito de que o participante tenha conhecimento sobre a existência e certo domínio a respeito das mesmas. \n\nPré-requisitos: noções básicas de fundamentos da Matemática. \n\nMateriais necessários: calculadora científica, caso possua.',
     'Como utilizar ferramentas que ajudam em exatas.',
     [
       {
