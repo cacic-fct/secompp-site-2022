@@ -7,5 +7,5 @@ export type EventMinister = {
 };
 
 export function ministerHasDetailInfo(minister: EventMinister) {
-  return !!minister.description || !!minister.link;
+  return !!minister.description || !!minister.email || !!minister.link;
 }

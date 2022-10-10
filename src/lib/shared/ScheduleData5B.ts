@@ -13,7 +13,6 @@ const ScheduleData: ScheduleEventList = [
     [
       {
         name: 'Bruno Vitorelli Tacca de Oliveira',
-        description: ' ',
         email: 'bruno.tacca@unesp.br',
       },
     ]
@@ -29,14 +28,10 @@ const ScheduleData: ScheduleEventList = [
     [
       {
         name: 'Daniel Henrique Serezane Pereira',
-        description: ' ',
-        // link: { path: 'https://github.com/', label: 'GitHub' },
         email: 'daniel.serezane@unesp.br',
       },
       {
         name: 'Gustavo Becelli do Nascimento',
-        description: ' ',
-        // link: { path: 'https://github.com/', label: 'GitHub' },
         email: 'gustavo.becelli@unesp.br',
       },
     ]
@@ -52,14 +47,10 @@ const ScheduleData: ScheduleEventList = [
     [
       {
         name: 'Lucas Gaspar Stumpf',
-        description: ' ',
-        // link: { path: 'https://github.com/', label: 'GitHub' },
         email: 'lg.stumpf@unesp.br',
       },
       {
         name: 'Manoela Moreno Frattini',
-        description: ' ',
-        // link: { path: 'https://github.com/', label: 'GitHub' },
         email: 'manoela.frattini@unesp.br',
       },
     ]
@@ -75,14 +66,10 @@ const ScheduleData: ScheduleEventList = [
     [
       {
         name: 'Daniel Henrique Serezane Pereira',
-        description: ' ',
-        // link: { path: 'https://github.com/', label: 'GitHub' },
         email: 'daniel.serezane@unesp.br',
       },
       {
         name: 'Gustavo Becelli do Nascimento',
-        description: ' ',
-        // link: { path: 'https://github.com/', label: 'GitHub' },
         email: 'gustavo.becelli@unesp.br',
       },
     ]
@@ -98,14 +85,10 @@ const ScheduleData: ScheduleEventList = [
     [
       {
         name: 'Lucas Gaspar Stumpf',
-        description: ' ',
-        // link: { path: 'https://github.com/', label: 'GitHub' },
         email: 'lg.stumpf@unesp.br',
       },
       {
         name: 'Manoela Moreno Frattini',
-        description: ' ',
-        // link: { path: 'https://github.com/', label: 'GitHub' },
         email: 'manoela.frattini@unesp.br',
       },
     ]
@@ -121,14 +104,10 @@ const ScheduleData: ScheduleEventList = [
     [
       {
         name: 'Vinicius Polachini Mayer Freitas De Jesus',
-        description: ' ',
-        // link: { path: 'https://github.com/', label: 'GitHub' },
         email: 'vinicius.polachini@unesp.br',
       },
       {
         name: 'Hariã Othon Gomes Silva',
-        description: ' ',
-        // link: { path: 'https://github.com/', label: 'GitHub' },
         email: 'haria.othon@unesp.br',
       },
     ]
@@ -144,14 +123,10 @@ const ScheduleData: ScheduleEventList = [
     [
       {
         name: 'Paula Tavares Pinto',
-        description: ' ',
-        // link: { path: 'https://github.com/', label: 'GitHub' },
         email: 'paula.pinto@unesp.br',
       },
       {
         name: 'Maurício Araújo Dias',
-        description: ' ',
-        // link: { path: 'https://github.com/', label: 'GitHub' },
         email: 'ma.dias@unesp.br',
       },
     ]
@@ -167,14 +142,10 @@ const ScheduleData: ScheduleEventList = [
     [
       {
         name: 'Paula Tavares Pinto',
-        description: ' ',
-        // link: { path: 'https://github.com/', label: 'GitHub' },
         email: 'paula.pinto@unesp.br',
       },
       {
         name: 'Maurício Araújo Dias',
-        description: ' ',
-        // link: { path: 'https://github.com/', label: 'GitHub' },
         email: 'ma.dias@unesp.br',
       },
     ]
@@ -184,9 +155,9 @@ const ScheduleData: ScheduleEventList = [
     'Laboratórios centrais',
     0,
     new Date('2022-10-21T16:30'),
-    270,
-    '',
-    ''
+    270
+    // '',
+    // '',
     // [
     //   {
     //     name: 'Daniel Nunes Monteiro',
