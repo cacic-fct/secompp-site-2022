@@ -18,6 +18,7 @@
   #ministers {
     @media (min-width: 574px) {
       display: inline-flex;
+      overflow: scroll;
     }
   }
 </style>
