@@ -4,20 +4,21 @@
   export let alt: string;
   export let marginX: boolean = false;
   export let marginBottom: boolean = false;
-  export let size: 'xl' | 'lg' | 'sm' = 'lg';
+  export let size: 'xl' | 'lg' | 'md' | 'sm' = 'md';
 
   const img_small = size == 'sm';
   const img_large = size == 'lg';
   const img_xl = size == 'xl';
+  const img_md = size == 'md';
 </script>
 
 <a {href} target="_blank" class:margin-left={marginX} class:mb-1={marginBottom}>
-  <img loading="lazy" {src} {alt} class="d-inline-block" class:img_xl class:img_large class:img_small />
+  <img loading="lazy" {src} {alt} class="d-inline-block" class:img_xl class:img_md class:img_large class:img_small />
 </a>
 
 <style lang="scss">
   .img_large {
-    width: 100px;
+    width: 150px;
   }
 
   .img_xl {
@@ -26,6 +27,10 @@
 
   .margin-left {
     margin-left: 4px;
+  }
+
+  .img_md {
+    width: 100px;
   }
 
   .img_small {
