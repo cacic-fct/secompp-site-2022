@@ -17,8 +17,9 @@
 <style lang="scss">
   #ministers {
     @media (min-width: 574px) {
+      max-width: 100%;
       display: inline-flex;
-      // overflow: scroll;
+      overflow: auto;
     }
   }
 </style>
