@@ -18,7 +18,6 @@
   #ministers {
     width: 100%;
     @media (min-width: 574px) {
-      max-width: 100%;
       display: inline-flex;
       overflow: auto;
     }
