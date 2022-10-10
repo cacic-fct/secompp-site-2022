@@ -26,7 +26,7 @@
           </thead>
           <tbody>
             <tr>
-              <td>Valor</td>
+              <td>Valor da inscrição</td>
               <td aria-label="35 reais">R$ 35,00</td>
             </tr>
           </tbody>
