@@ -47,6 +47,7 @@
   }
 
   #icon-desc {
+    padding-left: 0;
     @media (min-width: 575px) {
       max-width: 150px;
       div:first-child {

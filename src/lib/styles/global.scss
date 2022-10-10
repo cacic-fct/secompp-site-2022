@@ -57,6 +57,10 @@ $background-color: var.$background-color;
     opacity: 0.5;
     background-color: rgba(0, 0, 0, 0);
   }
+
+  &:focus-visible {
+    background-color: rgba(0, 0, 0, 0);
+  }
 }
 
 .navbar-dark {
@@ -81,4 +85,30 @@ section:before {
 
 .smaller {
   font-size: 0.75rem;
+}
+
+.modal-content {
+  --bs-modal-bg: rgb(29, 30, 31);
+  --bs-modal-color: $body-color;
+}
+
+.modal-title {
+  color: #fdbd00;
+  padding-left: 12px;
+}
+
+.modal-header {
+  border-bottom: none;
+}
+
+.modal-body {
+  padding-bottom: 24px;
+}
+
+.modal-header .btn-close {
+  filter: invert(100%);
+  opacity: 1;
+  &:hover {
+    opacity: 0.75;
+  }
 }

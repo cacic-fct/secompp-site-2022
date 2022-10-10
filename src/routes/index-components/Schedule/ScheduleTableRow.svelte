@@ -1,15 +1,19 @@
 <script lang="ts">
   import minicursosIcon from '$lib/img/minicursos.svg';
   import palestrasIcon from '$lib/img/palestras.svg';
+  import type {
+    ScheduleEventClickHandler,
+    ScheduleEventRow,
+  } from '$lib/shared/ScheduleEvent';
   import {
     findEvent,
     getEventStart,
     getEventType,
-    type ScheduleEventRow,
-  } from './ScheduleData';
+  } from '$lib/shared/ScheduleEventUtils';
   import ScheduleTableCell from './ScheduleTableCell.svelte';
 
   export let schedule: ScheduleEventRow;
+  export let onClickEvent: ScheduleEventClickHandler;
 
   const event = findEvent(schedule);
 
@@ -35,7 +39,7 @@
   </td>
   {#each schedule as event}
     {#if event}
-      <ScheduleTableCell {event} />
+      <ScheduleTableCell {onClickEvent} {event} />
     {:else}
       <td aria-hidden="true" aria-disabled="true" />
     {/if}
@@ -60,10 +64,7 @@
     &:first-child {
       @include styles.cell-first-child();
       background-color: #000;
-      border-width: 1px;
-      border-left-width: 0;
-      border-top-right-radius: styles.$border-radius;
-      border-bottom-right-radius: styles.$border-radius;
+      outline: 5px solid #000;
 
       div {
         @media (min-width: 574px) {

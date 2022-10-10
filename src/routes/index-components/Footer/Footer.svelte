@@ -22,17 +22,10 @@
             src={logoCacic}
             alt="Centro Acadêmico de Ciência da Computação"
             marginBottom />
-          <ImgLink
-            marginX
-            href="https://www.ejcomp.com.br/"
-            src={logoEjcomp}
-            alt="Empresa Júnior da Computação" />
+          <ImgLink marginX href="https://www.ejcomp.com.br/" src={logoEjcomp} alt="Empresa Júnior da Computação" />
 
           <br />
-          <ImgLink
-            href="https://www.fct.unesp.br"
-            src={logoUnesp}
-            alt="Unesp" />
+          <ImgLink href="https://www.fct.unesp.br" src={logoUnesp} alt="Unesp" />
           <ImgLink
             href="https://www.fct.unesp.br/#!/departamentos/matematica-e-computacao/"
             size="sm"
@@ -59,26 +52,22 @@
             19060-900
           </span>
           <br />
-          <a
-            id="contact-mail"
-            aria-label="email de contato cacic"
-            href="mailto:cacic.fct@gmail.com?subject=Contato SECOMPP22">
-            <Envelope
-              aria-label="ícone email"
-              color="white"
-              width="24"
-              height="24" />
-          </a>
-          <a
-            id="contact-phone"
-            href="tel:1832295600"
-            aria-label="telefone de contato cacic">
-            <Telephone
-              aria-label="ícone telefone"
-              color="white"
-              width="24"
-              height="24" />
-          </a>
+          <div class="mt-2">
+            <a
+              class="contact-button"
+              id="contact-mail"
+              aria-label="Entrar em contato por e-mail"
+              href="mailto:cacic.fct@gmail.com?subject=Contato SECOMPP22">
+              <Envelope color="white" width="24" height="24" />
+            </a>
+            <a
+              class="contact-button"
+              id="contact-phone"
+              href="tel:1832295600"
+              aria-label="Entrar em contato por telefone">
+              <Telephone color="white" width="24" height="24" />
+            </a>
+          </div>
         </address>
       </div>
     </div>
@@ -86,12 +75,23 @@
 </footer>
 
 <style lang="scss">
+  @mixin transition {
+    transition: 0.3s;
+  }
+
+  .contact-button {
+    @include transition();
+    &:hover {
+      opacity: 0.75;
+    }
+  }
+
   #contact-mail {
-    padding-right: 0.75rem;
+    margin-right: 0.75rem;
   }
 
   #contact-phone {
-    padding-left: 0.75rem;
+    margin-left: 0.75rem;
   }
 
   .footer-row > .col-md-4 {

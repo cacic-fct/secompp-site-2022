@@ -10,19 +10,17 @@
   const img_large = !img_small;
 </script>
 
-<a {href} target="_blank" class:mx-3={marginX} class:mb-1={marginBottom}>
-  <img
-    loading="lazy"
-    {src}
-    {alt}
-    class="d-inline-block"
-    class:img_large
-    class:img_small />
+<a {href} target="_blank" class:margin-left={marginX} class:mb-1={marginBottom}>
+  <img loading="lazy" {src} {alt} class="d-inline-block" class:img_large class:img_small />
 </a>
 
 <style lang="scss">
   .img_large {
     width: 100px;
+  }
+
+  .margin-left {
+    margin-left: 4px;
   }
 
   .img_small {

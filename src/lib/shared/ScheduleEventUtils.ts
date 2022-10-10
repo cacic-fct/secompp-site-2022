@@ -1,20 +1,12 @@
-export type EventMinister = { name: string; description: string };
-export type ScheduleEventType = 'minicurso' | 'palestra';
-export type ScheduleEvent = {
-  ministers: Array<EventMinister>;
-  eventName: string;
-  startTime: Date;
-  endTime: Date;
-  place: string;
-  type: ScheduleEventType;
-  shortDescription: string;
-  fullDescription: string;
-};
-export type ScheduleEventList = Array<ScheduleEvent>;
-export type ScheduleEventRow = Array<ScheduleEvent | null>;
-export type ScheduleEventGrid = Array<ScheduleEventRow>;
+import type { EventMinister } from './EventMinister';
+import type {
+  ScheduleEvent,
+  ScheduleEventGrid,
+  ScheduleEventList,
+  ScheduleEventRow,
+} from './ScheduleEvent';
 
-function createEvent(
+export function createEvent(
   eventName: string,
   place: string,
   /**
@@ -43,52 +35,6 @@ function createEvent(
   };
 }
 
-const ScheduleData: ScheduleEventList = [
-  createEvent(
-    'Bagulhos Sinistros',
-    'Laboratório 10B',
-    0,
-    new Date('2022-10-10T14:00'),
-    30,
-    'Minicurso destinado a ensinar sobre tecnologias das\
- profundezas da esquisitice como JavaScript',
-    'Tecnologias sinistras e sem sentido'
-  ),
-  createEvent(
-    'Introdução à POO',
-    'Anfiteatro 1',
-    0,
-    new Date('2022-10-10T16:00'),
-    60,
-    'Minicurso destinado ao ensino das bases da programação orientada a objetos,\
- paradigma de muitas linguagens como Java, C++, C#, etc.',
-    'Bases da Programação Orientada a Objeto'
-  ),
-  createEvent(
-    'Inteligência Artificial',
-    'Auditório',
-    1,
-    new Date('2022-10-12T18:00'),
-    60,
-    'Palestra explicativa sobre inteligência artificial, suas origens e áreas de aplicação',
-    'Inteligência artificial, Machine Learning e Redes Neurais'
-  ),
-  createEvent(
-    'Arquitetura de Computadores',
-    'Auditório',
-    1,
-    new Date('2022-10-13T18:00'),
-    60
-  ),
-  createEvent(
-    'Desenvolvimento Web',
-    'Laboratório 6B',
-    0,
-    new Date('2022-10-14T16:00'),
-    60
-  ),
-];
-
 function putEvent(schedule: ScheduleEventRow, event: ScheduleEvent) {
   /* subtraindo 1 para não incluir domingo */
   const weekDay = event.startTime.getDay() - 1;
@@ -109,6 +55,10 @@ export function getEventStart(event: ScheduleEvent | null | undefined) {
   return event?.startTime.toTimeString().slice(0, 5) ?? '00:00';
 }
 
+export function getEventEnd(event: ScheduleEvent | null | undefined) {
+  return event?.endTime.toTimeString().slice(0, 5) ?? '00:00';
+}
+
 export function getEventType(event: ScheduleEvent | undefined) {
   return event?.type ?? 'minicurso';
 }
@@ -124,7 +74,7 @@ function findSameStartTimeRow(schedule: ScheduleEventGrid, ev: ScheduleEvent) {
   );
 }
 
-function createScheduleGrid(schedule: ScheduleEventList): ScheduleEventGrid {
+export function createScheduleGrid(schedule: ScheduleEventList) {
   const scheduleGrid: ScheduleEventGrid = [];
 
   schedule.forEach(event => {
@@ -140,5 +90,3 @@ function createScheduleGrid(schedule: ScheduleEventList): ScheduleEventGrid {
 
   return scheduleGrid;
 }
-
-export default createScheduleGrid(ScheduleData);

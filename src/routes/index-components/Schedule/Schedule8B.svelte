@@ -1,12 +1,29 @@
 <script lang="ts">
-  import Caption from './Caption.svelte';
+  import ScheduleData from '$lib/shared/ScheduleData8B';
 
-  import ScheduleData from './ScheduleData';
+  import type {
+    ScheduleEvent,
+    ScheduleEventClickHandler,
+  } from '$lib/shared/ScheduleEvent';
+  import { createScheduleGrid } from '$lib/shared/ScheduleEventUtils';
+
+  const ScheduleGrid = createScheduleGrid(ScheduleData);
+
+  import Caption from './Caption.svelte';
+  import EventModal from './EventModal.svelte';
   import ScheduleTableRow from './ScheduleTableRow.svelte';
+
+  let isOpen = false;
+  let event: ScheduleEvent | null;
+  const toggle = () => (isOpen = !isOpen);
+  const onClickEvent: ScheduleEventClickHandler = ev => {
+    isOpen = true;
+    event = ev;
+  };
 </script>
 
 <div class="container schedule-container">
-  <h1>Programação</h1>
+  <h1>Programação do laboratório 8B</h1>
   <div class="table-responsive" style="--bs-secondary-rgb: 255, 255, 255">
     <table class="table">
       <thead>
@@ -20,13 +37,16 @@
         </tr>
       </thead>
       <tbody>
-        {#each ScheduleData as schedule}
-          <ScheduleTableRow {schedule} />
+        {#each ScheduleGrid as schedule}
+          <ScheduleTableRow {onClickEvent} {schedule} />
         {/each}
       </tbody>
     </table>
   </div>
-  <Caption />
+  <!-- <Caption /> -->
+  {#if event}
+    <EventModal {event} isModalOpen={isOpen} toggleModal={toggle} />
+  {/if}
 </div>
 
 <style lang="scss">
