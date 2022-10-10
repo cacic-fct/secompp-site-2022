@@ -1,10 +1,7 @@
 <script lang="ts">
   import ScheduleData from '$lib/shared/ScheduleData6B';
 
-  import type {
-    ScheduleEvent,
-    ScheduleEventClickHandler,
-  } from '$lib/shared/ScheduleEvent';
+  import type { ScheduleEvent, ScheduleEventClickHandler } from '$lib/shared/ScheduleEvent';
   import { createScheduleGrid } from '$lib/shared/ScheduleEventUtils';
 
   const ScheduleGrid = createScheduleGrid(ScheduleData);
@@ -44,7 +41,7 @@
       </tbody>
     </table>
   </div>
-  <!-- <Caption /> -->
+  <Caption />
   {#if event}
     <EventModal {event} isModalOpen={isOpen} toggleModal={toggle} />
   {/if}
@@ -71,12 +68,7 @@
   th {
     &:first-child {
       @include cell-first-child();
-      background: linear-gradient(
-        45deg,
-        rgba(0, 0, 0, 0.6),
-        45%,
-        rgba(0, 0, 0, 0)
-      );
+      background: linear-gradient(45deg, rgba(0, 0, 0, 0.6), 45%, rgba(0, 0, 0, 0));
     }
     border: 0;
   }

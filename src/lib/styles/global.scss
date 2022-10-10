@@ -105,6 +105,14 @@ section:before {
   padding-bottom: 24px;
 }
 
+.pre-wrap {
+  white-space: pre-wrap;
+}
+
+.text-justify {
+  text-align: justify;
+}
+
 .modal-header .btn-close {
   filter: invert(100%);
   opacity: 1;

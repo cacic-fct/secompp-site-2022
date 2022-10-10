@@ -1,16 +1,7 @@
 <script lang="ts">
   import logo from '$lib/img/secompp22-logo.svg';
 
-  import {
-    Collapse,
-    Navbar,
-    NavbarToggler,
-    NavbarBrand,
-    Nav,
-    NavItem,
-    NavLink,
-    Button,
-  } from 'sveltestrap';
+  import { Collapse, Navbar, NavbarToggler, NavbarBrand, Nav, NavItem, NavLink, Button } from 'sveltestrap';
 
   let isOpen = false;
 </script>
@@ -19,10 +10,7 @@
   <NavbarBrand href="#">
     <img src={logo} class="py-1" width="150" alt="Logo da SECOMPP 2022" />
   </NavbarBrand>
-  <NavbarToggler
-    aria-label="Botão do menu"
-    class="border border-0"
-    on:click={() => (isOpen = !isOpen)} />
+  <NavbarToggler aria-label="Botão do menu" class="border border-0" on:click={() => (isOpen = !isOpen)} />
 
   <Collapse {isOpen} navbar expand="md">
     <Nav class="ms-auto" navbar>
@@ -43,9 +31,7 @@
       </NavItem>
 
       <NavItem>
-        <Button outline class="nav-subscribe-btn" href="https://fct-pp.web.app">
-          Inscrever-se
-        </Button>
+        <Button outline class="nav-subscribe-btn" href="https://fct-pp.web.app/eventos">Inscrever-se</Button>
       </NavItem>
     </Nav>
   </Collapse>

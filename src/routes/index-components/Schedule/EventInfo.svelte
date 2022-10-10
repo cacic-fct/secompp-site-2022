@@ -40,7 +40,7 @@
   </div>
   {#if event.fullDescription !== ''}
     <br />
-    {event.fullDescription}
+    <div class="pre-wrap">{event.fullDescription}</div>
   {:else if event.shortDescription !== ''}
     <br />
     {event.shortDescription}

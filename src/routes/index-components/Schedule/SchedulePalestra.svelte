@@ -1,15 +1,13 @@
 <script lang="ts">
   import ScheduleData from '$lib/shared/ScheduleDataPalestra';
 
-  import type {
-    ScheduleEvent,
-    ScheduleEventClickHandler,
-  } from '$lib/shared/ScheduleEvent';
+  import type { ScheduleEvent, ScheduleEventClickHandler } from '$lib/shared/ScheduleEvent';
   import { createScheduleGrid } from '$lib/shared/ScheduleEventUtils';
 
   const ScheduleGrid = createScheduleGrid(ScheduleData);
 
   import Caption from './Caption.svelte';
+  import CaptionPalestra from './CaptionPalestra.svelte';
   import EventModal from './EventModal.svelte';
   import ScheduleTableRow from './ScheduleTableRow.svelte';
 
@@ -43,7 +41,7 @@
       </tbody>
     </table>
   </div>
-  <!-- <Caption /> -->
+  <CaptionPalestra />
   {#if event}
     <EventModal {event} isModalOpen={isOpen} toggleModal={toggle} />
   {/if}
@@ -70,12 +68,7 @@
   th {
     &:first-child {
       @include cell-first-child();
-      background: linear-gradient(
-        45deg,
-        rgba(0, 0, 0, 0.6),
-        45%,
-        rgba(0, 0, 0, 0)
-      );
+      background: linear-gradient(45deg, rgba(0, 0, 0, 0.6), 45%, rgba(0, 0, 0, 0));
     }
     border: 0;
   }

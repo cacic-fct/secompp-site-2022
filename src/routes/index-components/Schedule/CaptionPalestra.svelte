@@ -7,13 +7,9 @@
   <div class="row" style="max-width: 574px;">
     <div id="icon-desc" class="col-sm">
       <div>
-        <img src={minicursosIcon} loading="lazy" alt="Ícone minicurso" class="caption-icon" />
-        Minicurso
-      </div>
-      <!-- <div>
         <img src={palestrasIcon} alt="Ícone palestra" loading="lazy" class="caption-icon" />
         Palestra
-      </div> -->
+      </div>
     </div>
     <div class="col-sm">
       <p class="caption-gray" id="caption-large-screen">
