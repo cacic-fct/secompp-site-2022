@@ -9,7 +9,7 @@
   <h6 class="fw-bold">{minister.name}</h6>
   {#if ministerHasDetailInfo(minister)}
     {#if minister.description}
-      <span class="small">{minister.description}</span>
+      <span class="small pre-wrap">{minister.description}</span>
     {/if}
     {#if minister.link}
       <a class="minister-url smaller" href={minister.link.path} target="_blank">
