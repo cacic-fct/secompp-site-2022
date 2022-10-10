@@ -23,7 +23,8 @@
 </script>
 
 <div class="container schedule-container">
-  <h1>Programação do laboratório 8B</h1>
+  <h1>Programação do Laboratório 8B</h1>
+  <span>Recomenda-se trazer o seu próprio computador</span>
   <div class="table-responsive" style="--bs-secondary-rgb: 255, 255, 255">
     <table class="table">
       <thead>
