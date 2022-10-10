@@ -66,6 +66,12 @@ const ScheduleData: ScheduleEventList = [
     'Mesa-redonda: Ciência da Computação na FCT - 20 anos: narrativas e experiências',
     [
       {
+        name: 'Alisson Fernando Coelho do Carmo',
+        // description: 'Aluna formada em ciência da computação na FCT Unesp.',
+        // link: { path: 'https://github.com/', label: 'GitHub' },
+        // email: '...',
+      },
+      {
         name: 'Fabio Takaki',
         // description:
         // 'Aluno formado em ciência da computação na FCT Unesp. Um dos fundadores da Rubcube em Presidente Prudente',
@@ -81,6 +87,13 @@ const ScheduleData: ScheduleEventList = [
       },
       {
         name: 'Giovanna Carreira Marinho',
+        // description: 'Aluna formada em ciência da computação na FCT Unesp.',
+        // link: { path: 'https://github.com/', label: 'GitHub' },
+        // email: '...',
+      },
+
+      {
+        name: "Phillipe Sant'Ana",
         // description: 'Aluna formada em ciência da computação na FCT Unesp.',
         // link: { path: 'https://github.com/', label: 'GitHub' },
         // email: '...',
