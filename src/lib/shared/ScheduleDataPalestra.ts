@@ -4,7 +4,7 @@ import { createEvent } from './ScheduleEventUtils';
 const ScheduleData: ScheduleEventList = [
   createEvent(
     'Duas perspectivas sobre acessibilidade digital: desenvolvedores e usuários',
-    'Anfiteatro 1',
+    'Auditório',
     1,
     new Date('2022-10-17T20:00'),
     90,
@@ -20,7 +20,7 @@ const ScheduleData: ScheduleEventList = [
   ),
   createEvent(
     'Sistemas Conversacionais: Oportunidades e Desafios',
-    'Anfiteatro 1',
+    'Auditório',
     1,
     new Date('2022-10-18T20:00'),
     90,
@@ -36,7 +36,7 @@ const ScheduleData: ScheduleEventList = [
   ),
   createEvent(
     'Quanto tempo tem o tempo?',
-    'Anfiteatro 1',
+    'Auditório',
     1,
     new Date('2022-10-19T20:00'),
     60,
@@ -52,7 +52,7 @@ const ScheduleData: ScheduleEventList = [
   ),
   createEvent(
     'Mesa redonda',
-    'Anfiteatro 1',
+    'Auditório',
     1,
     new Date('2022-10-20T20:00'),
     90,
