@@ -12,6 +12,10 @@ const ScheduleData: ScheduleEventList = [
     'Introdução à linguagem de programação Python',
     [
       {
+        name: 'Prof. Dr. Ronaldo Celso Messias Correia',
+        email: 'ronaldo.correia@unesp.br',
+      },
+      {
         name: 'Guilherme Eduardo Silva Batalhoti',
         email: 'guilherme.batalhoti@unesp.br',
       },
@@ -30,6 +34,10 @@ const ScheduleData: ScheduleEventList = [
     'Introduzir o aluno à sintaxe da Linguagem de Programação Python e suas bibliotecas principais para análise de dados, Pandas e Matplotlib, além do ambiente Jupyter Notebook. \n\nPré-requisitos: lógica de programação. \n\nMateriais necessários: computador, Anaconda ou Google Colab e acesso a internet.',
     'Introdução à linguagem de programação Python',
     [
+      {
+        name: 'Prof. Dr. Ronaldo Celso Messias Correia',
+        email: 'ronaldo.correia@unesp.br',
+      },
       {
         name: 'Guilherme Eduardo Silva Batalhoti',
         email: 'guilherme.batalhoti@unesp.br',
@@ -149,29 +157,7 @@ const ScheduleData: ScheduleEventList = [
       },
     ]
   ),
-  createEvent(
-    'Confraternização e encerramento',
-    'Laboratórios centrais',
-    0,
-    new Date('2022-10-21T16:30'),
-    270
-    // '',
-    // '',
-    // [
-    //   {
-    //     name: 'Daniel Nunes Monteiro',
-    //     description: ' ',
-    //     // link: { path: 'https://github.com/', label: 'GitHub' },
-    //     email: 'daniel.n.monteiro@unesp.br',
-    //   },
-    //   {
-    //     name: 'Gabriel Augusto Lima Silva',
-    //     description: ' ',
-    //     // link: { path: 'https://github.com/', label: 'GitHub' },
-    //     email: 'gabriel.a.silva@unesp.br',
-    //   },
-    // ]
-  ),
+  createEvent('Confraternização e encerramento', 'Laboratórios centrais', 0, new Date('2022-10-21T16:30'), 270),
 ];
 
 export default ScheduleData;
