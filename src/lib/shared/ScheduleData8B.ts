@@ -89,29 +89,7 @@ const ScheduleData: ScheduleEventList = [
       },
     ]
   ),
-  createEvent(
-    'Confraternização e encerramento',
-    'Laboratórios centrais',
-    0,
-    new Date('2022-10-21T16:30'),
-    270
-    // '',
-    // '',
-    // [
-    //   {
-    //     name: 'Daniel Nunes Monteiro',
-    //     description: ' ',
-    //     // link: { path: 'https://github.com/', label: 'GitHub' },
-    //     email: 'daniel.n.monteiro@unesp.br',
-    //   },
-    //   {
-    //     name: 'Gabriel Augusto Lima Silva',
-    //     description: ' ',
-    //     // link: { path: 'https://github.com/', label: 'GitHub' },
-    //     email: 'gabriel.a.silva@unesp.br',
-    //   },
-    // ]
-  ),
+  createEvent('Confraternização e encerramento', 'Laboratórios centrais', 0, new Date('2022-10-21T16:30'), 270),
 ];
 
 export default ScheduleData;
