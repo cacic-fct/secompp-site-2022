@@ -46,6 +46,8 @@
             marginBottom />
         </div>
         <p class="text-start fs-light small">
+          <b>Vunesp</b> - Fundação Vunesp<br/>
+          <b>Fundacte</b> - Fundação de Ciência, Tecnologia e Ensino<br/>
           <b>PROEC</b> - Pró-Reitoria de Extensão Universitária e Cultura<br />
           <b>CLAE</b> - Centro Local de Apoio à Extensão<br />
           <b>Fundunesp</b> - Fundação para o Desenvolvimento da&nbsp;Unesp<br />
