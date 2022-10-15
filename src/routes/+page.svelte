@@ -6,6 +6,7 @@
   import Header from './index-components/header.svelte';
   import Info from './index-components/info.svelte';
   import Nav from './index-components/nav.svelte';
+  import Schedule10 from './index-components/Schedule/Schedule10.svelte';
   import Schedule5B from './index-components/Schedule/Schedule5B.svelte';
   import Schedule6B from './index-components/Schedule/Schedule6B.svelte';
   import Schedule8B from './index-components/Schedule/Schedule8B.svelte';
@@ -22,6 +23,7 @@
   <Schedule5B />
   <Schedule6B/>
   <Schedule8B/>
+  <Schedule10/>
   <SchedulePalestra/>
 </section>
 <section id="informacoes">
