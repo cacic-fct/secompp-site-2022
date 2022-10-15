@@ -5,6 +5,7 @@
   import logoDmc from '$lib/img/dmc.webp';
   import logoRubcube from '$lib/img/rubcube.svg';
   import logoRocketseat from '$lib/img/rocketseat.svg';
+  import logoVunesp from '$lib/img/vunesp.svg';
   import { Envelope, Telephone } from 'svelte-bootstrap-icons';
   import ImgLink from './ImgLink.svelte';
 </script>
@@ -18,6 +19,8 @@
 
         <h3 class="fs-6 text-white" style="margin-top: 15px">Apoio</h3>
         <ImgLink marginX href="https://www.rocketseat.com.br/" size="xl" src={logoRocketseat} alt="Rocketseat" />
+        <br />
+        <ImgLink marginX href="https://www.vunesp.com.br/" size="lg" src={logoVunesp} alt="Rocketseat" />
       </div>
       <div class="col-md-4">
         <h3 class="fs-6 text-white mb-3">Realização</h3>
@@ -44,14 +47,10 @@
             alt="Departamento de Matemática e Computação"
             marginX
             marginBottom />
+          <p class="text-start fs-light small">
+            <b>Fundacte</b> - Fundação de Ciência, Tecnologia e Ensino<br />
+          </p>
         </div>
-        <p class="text-start fs-light small">
-          <b>Vunesp</b> - Fundação Vunesp<br/>
-          <b>Fundacte</b> - Fundação de Ciência, Tecnologia e Ensino<br/>
-          <b>PROEC</b> - Pró-Reitoria de Extensão Universitária e Cultura<br />
-          <b>CLAE</b> - Centro Local de Apoio à Extensão<br />
-          <b>Fundunesp</b> - Fundação para o Desenvolvimento da&nbsp;Unesp<br />
-        </p>
       </div>
       <div class="col-md-4">
         <address>

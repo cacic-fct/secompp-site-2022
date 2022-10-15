@@ -2,6 +2,7 @@
   import logo from '$lib/img/secompp22-logo.svg';
   import logoRubcube from '$lib/img/rubcube.svg';
   import logoRocketseat from '$lib/img/rocketseat.svg';
+  import logoVunesp from '$lib/img/vunesp.svg';
   import { Button } from 'sveltestrap';
   import ImgLink from './Footer/ImgLink.svelte';
 </script>
@@ -30,6 +31,9 @@
       <br />
 
       <ImgLink marginX href="https://www.rocketseat.com.br/" size="lg" src={logoRocketseat} alt="Rocketseat" />
+      <br />
+      <br />
+      <ImgLink marginX href="https://www.vunesp.com.br/" size="lg" src={logoVunesp} alt="Rocketseat" />
     </div>
   </div>
 </header>
