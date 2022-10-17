@@ -75,6 +75,9 @@ const ScheduleData: ScheduleEventList = [
       {
         name: "Phillipe Sant'Ana",
       },
+      {
+        name: 'Marco Antônio Piteri',
+      },
     ]
   ),
 ];
