@@ -19,18 +19,17 @@ const ScheduleData: ScheduleEventList = [
     ]
   ),
   createEvent(
-    'Sistemas Conversacionais: Oportunidades e Desafios',
+    'Time de Dados da GC: como nos organizamos para gerar valor',
     'Auditório',
     1,
     new Date('2022-10-18T20:00'),
     90,
-    'Esta palestra endereça novas oportunidades e desafios em sistemas conversacionais depois de uma década de tremendo progresso científico e sucesso comercial. Explorarei alguns dos avanços recentes em Foundation Models e como eles estão trazendo novos desafios e oportunidades para o design e desenvolvimento de sistemas conversacionais. Mostrarei também resultados recentes de minha pesquisa sobre o uso de linguagem formal em chatbots , de forma a discutir algumas questões fundamentais e éticas no contexto de sistemas conversacionais.',
-    'Abordagem de sistemas conversacionais após uma década de progresso.',
+    'Empresas de todo mundo estão se organizando para extrair melhor valor de seus dados. A Gamers Club não é diferente. Nesta apresentação mostraremos como estamos trabalhando em nossa cultura de dados, seja na organização do nosso time, como também nas definições de tecnologias adotadas. Esperamos que seja útil para empresas, mas não somente, como também entusiastas de dados e acadêmicos interessados pelo assunto. Aproveitamos ainda para trazer alguns cases de resultados obtidos durante este caminho.',
     [
       {
-        name: 'Claudio Pinhanez',
+        name: 'Téo Calvo',
         description:
-          'Claudio Pinhanez é cientista, inovador e professor.\n\nÉ pesquisador da IBM Research desde 1999, e hoje lidera as pesquisas em Inteligência Conversacional do laboratório da IBM Research no Brasil.\n\nÉ, também, o vice-diretor do C4AI, o Centro de Pesquisas em Inteligência Artificial, uma parceria da IBM, USP e FAPESP.\n\nClaudio obteve seu doutorado no Media Lab do MIT em 1999, e é especialista em inteligência artificial, interação homem-máquina, sistemas conversacionais, e ciência de serviços.\nCláudio tem mais de 150 artigos publicados em jornais e conferências científicas, e mais de 30 patentes outorgadas nos Estados Unidos, Europa e Japão',
+          'Téo Calvo é Bacharel em Esatística pela FCT-UNESP, pós graduado em Data Science & Big Data pela Universidade Federal do Paraná. Atualmente é Head de Dados na Gamers Club, com alta experiência empresarial. Faz parte do corpo docente da escola ASN.Rocks, ministrando aulas de Introdução ao Python, Algoritmos Classificadores e Regressores. Além disso, tem um canal na Twitch (Téo Me Why), onde faz lives sobre CIência de Dados, Machine Learning, Engenharia de Dados, etc.',
       },
     ]
   ),
