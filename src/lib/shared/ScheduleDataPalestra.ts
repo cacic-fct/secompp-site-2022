@@ -29,7 +29,7 @@ const ScheduleData: ScheduleEventList = [
       {
         name: 'Téo Calvo',
         description:
-          'Téo Calvo é Bacharel em Esatística pela FCT-UNESP, pós graduado em Data Science & Big Data pela Universidade Federal do Paraná. Atualmente é Head de Dados na Gamers Club, com alta experiência empresarial. Faz parte do corpo docente da escola ASN.Rocks, ministrando aulas de Introdução ao Python, Algoritmos Classificadores e Regressores. Além disso, tem um canal na Twitch (Téo Me Why), onde faz lives sobre CIência de Dados, Machine Learning, Engenharia de Dados, etc.',
+          'Téo Calvo é Bacharel em Estatística pela FCT-UNESP, pós graduado em Data Science & Big Data pela Universidade Federal do Paraná. Atualmente é Head de Dados na Gamers Club, com alta experiência empresarial. Faz parte do corpo docente da escola ASN.Rocks, ministrando aulas de Introdução ao Python, Algoritmos Classificadores e Regressores. Além disso, tem um canal na Twitch (Téo Me Why), onde faz lives sobre CIência de Dados, Machine Learning, Engenharia de Dados, etc.',
       },
     ]
   ),
