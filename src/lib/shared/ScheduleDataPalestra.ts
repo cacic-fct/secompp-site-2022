@@ -25,11 +25,12 @@ const ScheduleData: ScheduleEventList = [
     new Date('2022-10-18T20:00'),
     90,
     'Empresas de todo mundo estão se organizando para extrair melhor valor de seus dados. A Gamers Club não é diferente. Nesta apresentação mostraremos como estamos trabalhando em nossa cultura de dados, seja na organização do nosso time, como também nas definições de tecnologias adotadas. Esperamos que seja útil para empresas, mas não somente, como também entusiastas de dados e acadêmicos interessados pelo assunto. Aproveitamos ainda para trazer alguns cases de resultados obtidos durante este caminho.',
+    'Organização do time e tecnologias adotadas',
     [
       {
         name: 'Téo Calvo',
         description:
-          'Téo Calvo é Bacharel em Estatística pela FCT-UNESP, pós graduado em Data Science & Big Data pela Universidade Federal do Paraná. Atualmente é Head de Dados na Gamers Club, com alta experiência empresarial. Faz parte do corpo docente da escola ASN.Rocks, ministrando aulas de Introdução ao Python, Algoritmos Classificadores e Regressores. Além disso, tem um canal na Twitch (Téo Me Why), onde faz lives sobre CIência de Dados, Machine Learning, Engenharia de Dados, etc.',
+          'Téo Calvo é Bacharel em Estatística pela FCT-UNESP e pós-graduado em Data Science & Big Data pela Universidade Federal do Paraná. Atualmente é Head de Dados na Gamers Club, com alta experiência empresarial. Faz parte do corpo docente da escola ASN.Rocks, ministrando aulas de Introdução ao Python, Algoritmos Classificadores e Regressores. Além disso, tem um canal na Twitch (Téo Me Why), onde faz lives sobre Ciência de Dados, Machine Learning, Engenharia de Dados, etc.',
       },
     ]
   ),
