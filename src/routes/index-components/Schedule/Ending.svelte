@@ -7,7 +7,7 @@
   <div class="text-center intro-text">
     <hr class="my-5" />
     <br />
-    O evento acabou, agradecemos aos que se inscreveram e participaram!<br />
+    O evento chegou ao fim. Agradecemos a todos que participaram!<br />
     Você pode acessar os materiais utilizados durante os minicursos aqui:<br />
     <Button
       outline
