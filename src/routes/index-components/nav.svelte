@@ -29,10 +29,6 @@
       <NavItem>
         <NavLink href="#footer">Apoio</NavLink>
       </NavItem>
-
-      <NavItem>
-        <Button outline class="nav-subscribe-btn" href="https://fct-pp.web.app/eventos">Inscrever-se</Button>
-      </NavItem>
     </Nav>
   </Collapse>
 </Navbar>

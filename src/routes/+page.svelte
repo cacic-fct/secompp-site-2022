@@ -11,10 +11,14 @@
   import Schedule6B from './index-components/Schedule/Schedule6B.svelte';
   import Schedule8B from './index-components/Schedule/Schedule8B.svelte';
   import SchedulePalestra from './index-components/Schedule/SchedulePalestra.svelte';
+  import Ending from './index-components/Schedule/Ending.svelte';
 </script>
 
 <Nav />
 <Header />
+<section>
+  <Ending/> 
+</section>
 
 <section id="sobre">
   <About />
